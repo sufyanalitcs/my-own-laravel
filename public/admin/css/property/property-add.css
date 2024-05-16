@@ -1,0 +1,80 @@
+label{
+    font-weight: 400;
+    color: #000;
+}
+
+.upload-container {
+    border: 2px dashed #ccc;
+    padding: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    height: 5vw;
+    width: 100%;
+}
+
+.upload-container img {
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Style for the upload container */
+.upload-container-multi {
+    border: 2px dashed #ccc;
+    padding: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    height: 75%;
+    width: 100%;
+    display: flex;
+}
+
+.upload-container-multi img {
+}
+
+.upload-container-multi img {
+    max-width: 100%;
+    height: 60%;
+    margin: 0 0.5rem
+}
+.upload-container-multi p {
+    margin: 0;
+}
+.tox.tox-tinymce {
+    height: 20vw !important;
+}
+
+input[type="file"] {
+    display: block;
+  }
+  .imageThumb {
+    max-height: 75px;
+    border: 2px solid;
+    padding: 1px;
+    cursor: pointer;
+  }
+  .pip {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+  }
+  span.remove, span.edit {
+    display: block;
+    background: #444;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+  span.edit {
+   background: #10691c;
+ }
+
+ span.remove {
+    background: rgb(105, 16, 16);
+  }
+
+
+  span.remove:hover, span.edit:hover {
+    background: white;
+    color: black;
+  }

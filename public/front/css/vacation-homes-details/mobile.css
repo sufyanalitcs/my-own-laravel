@@ -1,0 +1,92 @@
+/* large devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    :root {
+        --h1: 3vw;
+        --h2: 2vw;
+        --h3: 1.75vw;
+        --h4: 1.25vw;
+        --h5: 1vw;
+        --h6: 0.75vw;
+    }
+
+    .container {
+        max-width: 920px;
+    }
+  
+    #main-nav {
+        background: linear-gradient(
+            60deg,
+            #fff 31%,
+            #020402ec 31%,
+            #020402e5 70%,
+            #020402a1 99%
+        );
+    }
+
+    button.navbar-toggler {
+        border: 1px solid #fff;
+    }
+
+    span.navbar-toggler-icon {
+        background-image: var(--bs-navbar-toggler-icon-bg);
+    }
+
+    div#mynavbar .nav-item a {
+        color: #000 !important;
+        font-weight: 500;
+    }
+
+    div#mynavbar form button {
+        width: 25%;
+    }
+
+    .about-container {
+        height: 45vw;
+    }
+    
+    .about-row {
+        height: 35vw;
+    }
+
+    /* =========================== */
+
+    .my-4 {
+        margin-top: 0.75rem !important;
+        margin-bottom: 0.75rem !important;
+    }
+    
+    .py-5 {
+        padding-top: 1.4rem !important;
+        padding-bottom: 1.4rem !important;
+    }
+    
+    .my-5 {
+        margin-top: 1.4rem !important;
+        margin-bottom: 1.4rem !important;
+    }
+
+  
+    /* =========================== */
+ 
+     
+    
+}
+
+
+/* medium devices */
+
+@media only screen and (max-width: 767px) {
+    :root {
+        --h1: 3vw;
+        --h2: 2vw;
+        --h3: 1.5vw;
+        --h4: 1.25vw;
+        --h5: 1vw;
+        --h6: 0.75vw;
+    }
+    .container,
+    .container-sm {
+        max-width: 728px;
+    }
+}

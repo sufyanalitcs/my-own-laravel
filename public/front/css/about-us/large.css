@@ -1,0 +1,89 @@
+/* for 32 inches */
+@media (min-width: 1200px) and (max-width: 2099px) {
+    .navbar > .container {
+        max-width: 1800px;
+    }
+    .navbar-brand img {
+        width: 60%;
+    } 
+    .top-about {
+        height: 5vw;
+        top: -2vw;
+        width: 8vw;
+        right: 18vw;
+    }
+    .bottom-about-img {
+        bottom: -1vw;
+        right: 13vw;
+        height: 45%;
+        width: 40%;
+    }
+
+    .company-container {
+        height: 30vw;
+    }
+    .company-right {
+        height: 30vw;
+    }
+    section.core-container.container.mt-5 {
+        padding-top: 5vw;
+    }
+}
+
+/* for 4k screens */
+@media (min-width: 2100px) {
+    .navbar > .container {
+        max-width: 100%;
+    }
+    .navbar-brand img {
+        width: 65%;
+    }
+
+    section.core-container.container.mt-5 {
+        padding-top: 5vw;
+    }
+
+    .about-container {
+        height: 15vw;
+    }
+    .about-row {
+        height: 20vw;
+    }
+
+    .bottom-about-img {
+        position: absolute;
+        bottom: -1vw;
+        right: 8vw;
+        height: 40%;
+        width: 35%;
+    }
+
+    .top-about {
+        background-color: #f02837;
+        height: 5vw;
+        width: 7vw;
+        border-radius: 1vw;
+        position: absolute;
+        top: -2vw;
+        right: 9vw;
+    }
+
+    /* ======================= */
+    .company-left {
+        width: 15%;
+        left: 20vw;
+    }
+    .company-container {
+        height: 15vw;
+    }
+    .company-right {
+        height: 15vw;
+    }
+
+    /* ======================== */
+
+    .contact-container {
+        height: 20vw;
+    }
+
+}
