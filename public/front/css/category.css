@@ -1,0 +1,49 @@
+.category-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3vw;
+}
+.category-div {
+    width: 12%;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.category-more-text {
+    cursor: pointer;
+}
+
+.category-img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    object-fit: contain;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.category-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.category-more-div {
+    background: linear-gradient(180deg, #ff6100 21%, #f03770 100%);
+    min-height: 20vh;
+    border-radius: 1vw;
+    padding: 2vw;
+}
+
+.category-more-div .category-carousel .category-div {
+    width: 14%;
+}
+
+@media only screen and (max-width: 768px) {
+    .category-div {
+        width: 25%;
+    }
+    .category-img {
+        width: 50%;
+    }
+}

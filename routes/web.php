@@ -37,6 +37,8 @@ Route::get('/clear-cache', function () {
 Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'index')->name('home'); 
     Route::get('/home', 'index')->name('home'); 
+    Route::get('/shop', 'shop')->name('shop'); 
+    
     Route::get('/about-us', 'about')->name('about.us'); 
     Route::get('/contact-us', 'contact')->name('contact.us'); 
     Route::post('/contact-submit', 'contactSubmit')->name('contact.submit'); 

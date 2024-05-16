@@ -1,86 +1,21 @@
-footer {
-    background: url("https://living.projects.softclusive.com/public/front/images/footer-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.footer-content{
-    border: 2px solid #D9D9D9;
-}
 
-.link-container a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.logo-div {
-    width: 65%;
-}
-.logo-div img{
+.footer-section {
+    background: linear-gradient(90deg, #ff6100 20%, #f03770 100%);
+  }
+  .store-img {
+    height: 100%;
     width: 100%;
-}
-
-.searchbox-wrap {
-    display: flex;
-    width: 80%;
-
-    input {
-        width: 100%;
-        flex: 1;
-        padding: 0.5vw 0.5vw 0.5vw 1vw;
-        font-size: 1.1em;
-        -webkit-border-top-left-radius: 25px;
-        -webkit-border-bottom-left-radius: 25px;
-        -moz-border-radius-topleft: 25px;
-        -moz-border-radius-bottomleft: 25px;
-        border-top-left-radius: 25px;
-        border-bottom-left-radius: 25px;
-        box-shadow: none;
-        border: none;
-        outline: none;
-        box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
-    }
-
-    button {
-        background-color: #fff;
-        -webkit-border-top-right-radius: 25px;
-        -webkit-border-bottom-right-radius: 25px;
-        -moz-border-radius-topright: 25px;
-        -moz-border-radius-bottomright: 25px;
-        border-top-right-radius: 25px;
-        border-bottom-right-radius: 25px;
-        box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.19);
-        border: none;
-        cursor: pointer;
-        padding: 1vw;
-        span {
-            padding: 10px 20px;
-            font-size: 0.9em;
-            text-transform: uppercase;
-            font-weight: 300;
-            color: #fff;
-            background-color: #f54e59;
-
-            border-radius: 20px;
-            box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
-
-            &:hover {
-                background-color: #d6121f;
-                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.19);
-            }
-        }
-    }
-}
-
-
-.foot-icon .col-1 a{
-    color: #fff;
-    cursor: pointer;
-}
-
-
-div#footer a{
-    text-decoration: none;
-    color: #fff;
-    cursor: pointer;
-}
+  }
+  .store-img img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .social-nav .nav-link{
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0 0.5rem;
+  }
+  
+  
+  

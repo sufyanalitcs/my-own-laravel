@@ -2,27 +2,27 @@
 <meta name="description" content="">
 <link rel="icon" type="image/x-icon" href="{{ asset('public/front/images/logo.png') }}">
 
-<title>{{ $data["title"] }} | Luxe Living Vacation Rentals</title>
+<title>{{ $data["title"] }} | My Own Appointments</title>
 
 
-<link rel="stylesheet" href="{{ asset('public/front/css/bootstrap.min.css') }}">
-<link rel="stylesheet" href="{{ asset('public/front/css/owl-carousel.css') }}">
-<link rel="stylesheet" href="{{ asset('public/front/css/owl-theme.css') }}">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+{{-- bootstrap css --}}
+<link rel="stylesheet" href="{{ asset('public/assets/css/bootstrap.min.css') }}">
 
+{{-- swipper css --}}
+<link rel="stylesheet" href="{{ asset('public/assets/css/swiper.min.css') }}"> 
+
+{{-- fontawesome --}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+{{-- common css --}}
 <link rel="stylesheet" href="{{ asset('public/front/css/common.css') }}">
-<link rel="stylesheet" href="{{ asset('public/front/css/animate.css') }}">
 
 {{-- custom css --}}
 <link rel="stylesheet" href="{{ asset('public/front/css/header.css') }}">
 <link rel="stylesheet" href="{{ asset('public/front/css/footer.css') }}">
  
+<link rel="stylesheet" href="{{ asset('public/front/css/auth.css') }}">
+<link rel="stylesheet" href="{{ asset('public/front/css/category.css') }}">
 
-{{-- all javascirpt links --}}
-<script src="{{ asset('public/front/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('public/front/js/jquery.min.js') }}"></script>
-<script src="{{ asset('public/front/js/owl-carousel.js') }}"></script>
-<script src="{{ asset('public/front/js/header.js') }}"></script>
- 

@@ -1,77 +1,42 @@
-<!-- Modal -->
-<div class="modal fade " id="siginModal" tabindex="-1" aria-labelledby="siginModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-xl">
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="auth-btn-div w-100 text-center">
-                    <button class="btn btn-primary mx-2 p-3 border w-35" type="button">
-                        Login</button>
-                    <button class="btn btn-light mx-2 p-3 border w-35" data-bs-toggle="modal"
-                        data-bs-target="#sigupsModal" type="button">
-                        Signup</button>
 
-                </div>
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content model-gradient">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="row  register-row">
-                    <div class="col-6">
-                        <div class="register-btn">
-                            <img src="{{ asset('public/front/images/signin-bg.png') }}" alt="" srcset="">
-                        </div>
-                    </div>
-                    <div class="col-6 p-3">
-                        <h2 class="fs-3 text-center register-title">Login</h2>
-                        <div class="text-center mt-3">
-                            <button class="btn btn-danger w-50 p-3">
-                                <i class="fa-brands fa-google"></i>
-                                Login with google
-                            </button>
-                        </div>
-                        <div class="or-div my-3">
-                            <div class="or-text fs-4">Or</div>
-                        </div>
 
-                        <form method="POST" id="loginForm" action="{{ route('login') }}">
-                            @csrf
-
-                            <div id="loginError"class="text-red" style="display: none;"></div>
-                            <div class="form-group my-3">
-                                <input id="email" type="email" class="form-control p-3  " name="email"
-                                    value="{{ old('email') }}" required autocomplete="email" autofocus
-                                    placeholder="Enter Email Address...">
-                            </div>
-
-                            <div class="form-group my-3">
-                                <input id="password" type="password" class="form-control p-3 " name="password" required
-                                    autocomplete="current-password" placeholder="Password">
-                            </div>
-
-                            <div class="form-group my-4 row">
-                                <div class="custom-control custom-checkbox small col-6">
-                                    <input class="form-check-input p-2" type="checkbox" name="remember" id="customCheck"
-                                        {{ old('remember') ? 'checked' : '' }}>
-                                    <label class="custom-control-label fs-5" for="customCheck">Remember
-                                        Me</label>
-                                </div>
-                                <div class="col-6 text-end">
-                                    <a href="http://" class="t-d-none">Forget Password ?</a>
-                                </div>
-                            </div>
-
-                            <button type="submit" class="btn btn-dark w-100 my-3 p-3 btn-user btn-block">
-                                {{ __('Login') }}
-                            </button>
-                        </form>
-
-                        <div class="my-3 text-center">
-                            Don't have an account? <a href="javascript:void(0)" class="text-red t-d-none"
-                                data-bs-toggle="modal" data-bs-target="#sigupsModal">sign up</a>
-                        </div>
-
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
                     </div>
 
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <a href="dashboard.html" class="btn btn-primary">Login</a>
+                </form>
+
+                <div class="separator">
+                    <div class="line"></div>
+                    <h6>Sign-up Now</h6>
+                    <div class="line"></div>
                 </div>
+
+                <button type="submit" class="btn btn-light">
+                    <i class="fa-brands fa-google"></i> Google</button>
+                <button type="submit" class="btn btn-light">
+                    <i class="fa-brands fa-square-facebook"></i> Facebook</button>
+
+
+                <br>
+                <p>Don’t have an account?<a href=""> Sign Up Now</a></p>
+
             </div>
 
         </div>

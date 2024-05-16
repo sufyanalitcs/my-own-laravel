@@ -22,6 +22,19 @@ class HomeController extends Controller
         return view('front.home',compact('data'));
     }
 
+    
+     
+    public function shop()
+    {
+        //
+        $data = [
+            'title' => 'shop',
+        ];
+        return view('front.shop',compact('data'));
+    }
+
+
+
     public function about()
     {
         $data = [
