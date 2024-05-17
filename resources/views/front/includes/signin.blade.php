@@ -19,7 +19,7 @@
                         <label for="exampleInputPassword1" class="form-label">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
-                    <a href="dashboard.html" class="btn btn-primary">Login</a>
+                    <a href="{{ route('dashboard') }}" class="btn btn-primary">Login</a>
                 </form>
 
                 <div class="separator">

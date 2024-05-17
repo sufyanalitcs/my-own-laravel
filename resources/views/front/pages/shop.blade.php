@@ -6,12 +6,14 @@
 
 
 @section('content')
-    <section class="banner-section"> 
+    <section class="banner-section">
         @include('front.includes.header')
 
         <div class="container">
             <div class="banner-div h-100">
-                @include('front.includes.category')
+                <div class="category-container h-100 d-flex flex-column justify-content-end">
+                    @include('front.includes.category')
+                </div>
             </div>
         </div>
     </section>
@@ -32,7 +34,7 @@
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
 
-                        <div class="swiper-slide near-salon-slide">
+                        <a class="swiper-slide near-salon-slide" href="{{ route('shop-detail') }}">
                             <div class="near-salon-img">
                                 <img src="{{ asset('public/front/images/near-1.png') }}" alt="" srcset="">
                             </div>
@@ -54,9 +56,9 @@
 
                             <span class="promoted">promoted <i class="fa-solid fa-circle-info"></i></span>
 
-                        </div>
+                        </a>
 
-                        <div class="swiper-slide near-salon-slide">
+                        <a class="swiper-slide near-salon-slide" href="{{ route('shop-detail') }}">
                             <div class="near-salon-img">
                                 <img src="{{ asset('public/front/images/near-2.png') }}" alt="" srcset="">
                             </div>
@@ -78,9 +80,9 @@
 
                             <span class="promoted">promoted <i class="fa-solid fa-circle-info"></i></span>
 
-                        </div>
+                        </a>
 
-                        <div class="swiper-slide near-salon-slide">
+                        <a class="swiper-slide near-salon-slide" href="{{ route('shop-detail') }}">
                             <div class="near-salon-img">
                                 <img src="{{ asset('public/front/images/near-3.png') }}" alt="" srcset="">
                             </div>
@@ -102,9 +104,9 @@
 
                             <span class="promoted">promoted <i class="fa-solid fa-circle-info"></i></span>
 
-                        </div>
+                        </a>
 
-                        <div class="swiper-slide near-salon-slide">
+                        <a class="swiper-slide near-salon-slide" href="{{ route('shop-detail') }}">
                             <div class="near-salon-img">
                                 <img src="{{ asset('public/front/images/near-4.png') }}" alt="" srcset="">
                             </div>
@@ -126,7 +128,7 @@
 
                             <span class="promoted">promoted <i class="fa-solid fa-circle-info"></i></span>
 
-                        </div>
+                        </a>
 
                     </div>
                 </div>
@@ -134,7 +136,6 @@
                 <div class="near-salon-button-prev swiper-button-prev"></div>
                 <div class="near-salon-button-next swiper-button-next"></div>
             </div>
-
 
 
         </div>
@@ -590,9 +591,6 @@
 
         </div>
     </section>
-
-
-
 @endsection
 
 @section('js')

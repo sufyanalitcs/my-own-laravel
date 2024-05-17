@@ -1,21 +1,36 @@
-
 .footer-section {
     background: linear-gradient(90deg, #ff6100 20%, #f03770 100%);
-  }
-  .store-img {
+}
+.store-img {
     height: 100%;
     width: 100%;
-  }
-  .store-img img {
+}
+.store-img img {
     height: 100%;
     width: 100%;
-  }
-  
-  .social-nav .nav-link{
+}
+
+.social-nav .nav-link {
     border-radius: 50%;
     border: 1px solid #fff;
     margin: 0 0.5rem;
-  }
-  
-  
-  
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+}
+
+.separator .line {
+  height: 3px;
+  flex: 1;
+  background-color: #000;
+}
+
+.separator h6 {
+  padding: 0 2rem;
+}
+
+.model-gradient {
+  background: linear-gradient(0deg, #ff6100 21%, #f03770 100%);
+}

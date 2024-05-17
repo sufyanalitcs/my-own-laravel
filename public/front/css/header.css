@@ -1,4 +1,3 @@
-
 .banner-section {
     min-height: 80vh;
     max-height: 50rem;
@@ -7,92 +6,75 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative; /* Ensure the video stays within the section */
-  }
-  
-  .banner-video {
+}
+
+.banner-video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensure the video covers the entire section */
-  }
-  
-  
-  .h-1 h1 {
+}
+
+.h-1 h1 {
     font-size: 5rem;
     font-weight: bolder;
-  }
-  
-  .banner-section > .container {
+}
+
+.banner-section > .container {
     min-height: 60vh;
     max-height: 35rem;
     height: 35rem;
     position: relative;
-  }
-  
-  .banner-section  .banner-div  {
+}
+
+.banner-section .banner-div {
     position: absolute;
     z-index: 9;
     width: 100%;
-  }
-  
-  header {
+}
+
+header {
     position: relative;
-  }
-  
-  .search-div {
+}
+
+.search-div {
     margin-top: 1vw;
-  }
-  .has-search .form-control {
-    padding-left: 3vw;
-    height: 3vw;
-  }
-  
-  .has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 3vw;
-    height: 3vw;
-    line-height: 3vw;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-  }
-  
-  .category-carousel {
+}
+
+.category-carousel {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 1vw;
     justify-content: center;
-  }
-  .category-div {
+}
+.category-div {
     width: 12%;
     color: #fff;
     text-align: center;
-    text-decoration: none; 
-  }
-  .category-more-text {
+    text-decoration: none;
+}
+.category-more-text {
     cursor: pointer;
-  }
-  
-  .category-img {
+}
+
+.category-img {
     width: 80%;
     height: 80%;
     margin: auto;
     object-fit: contain;
     border-radius: 50%;
     overflow: hidden;
-  }
-  
-  .category-img img {
+}
+
+.category-img img {
     width: 100%;
     height: 100%;
-  } 
-  
-  .category-more-div {
+}
+
+.category-more-div {
     background: linear-gradient(180deg, #ff6100 21%, #f03770 100%);
     min-height: 20vh;
     border-radius: 1vw;
@@ -101,18 +83,21 @@
     z-index: 999;
     margin-top: 1rem;
     display: none;
-  }
-  .category-more-div.active {
+    top: 10rem;
+
+}
+
+.category-more-div.active {
     display: block;
-  }
-  
-  .category-more-div .category-img{
+}
+
+.category-more-div .category-img {
     width: 60%;
     height: 60%;
-  }
-  
-  .category-more-div .category-carousel .category-div {
+}
+
+.category-more-div .category-carousel .category-div {
     width: 14%;
-  }
-  
-  /* ========================================== */
+}
+
+/* ========================================== */

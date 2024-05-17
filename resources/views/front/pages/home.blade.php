@@ -16,7 +16,23 @@
 
         <div class="container">
             <div class="banner-div h-100">
-                @include('front.includes.category')
+
+                <div class="category-container h-100 d-flex flex-column justify-content-end">
+                    <div class="h-1 text-white text-center">
+                        <h1>Be confident</h1>
+                    </div>
+                    <div class="h-2 text-white text-center">
+                        <h2>Discover and book beauty & wellness professionals near you</h2>
+                    </div>
+                    <div class="search-div d-flex flex-column align-items-center">
+                        <div class=" form-group has-search w-50">
+                            <span class="fa fa-search form-control-feedback"></span>
+                            <input type="text" class="form-control" placeholder="Search services or businesses">
+                        </div>
+                    </div>
+                    @include('front.includes.category')
+                </div>
+
             </div>
         </div>
     </section>
@@ -33,8 +49,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide offers-slide">
                             <div class="offers-img">
-                                <img src="{{ asset('public/front/images/offers-1.png') }}" alt=""
-                                    srcset="">
+                                <img src="{{ asset('public/front/images/offers-1.png') }}" alt="" srcset="">
                             </div>
                             <div class="row">
                                 <div class="col-9">
@@ -54,8 +69,7 @@
                         </div>
                         <div class="swiper-slide offers-slide">
                             <div class="offers-img">
-                                <img src="{{ asset('public/front/images/offers-2.png') }}" alt=""
-                                    srcset="">
+                                <img src="{{ asset('public/front/images/offers-2.png') }}" alt="" srcset="">
                             </div>
                             <div class="row">
                                 <div class="col-9">
@@ -75,8 +89,7 @@
                         </div>
                         <div class="swiper-slide offers-slide">
                             <div class="offers-img">
-                                <img src="{{ asset('public/front/images/offers-3.png') }}" alt=""
-                                    srcset="">
+                                <img src="{{ asset('public/front/images/offers-3.png') }}" alt="" srcset="">
                             </div>
                             <div class="row">
                                 <div class="col-9">
@@ -97,8 +110,7 @@
 
                         <div class="swiper-slide offers-slide">
                             <div class="offers-img">
-                                <img src="{{ asset('public/front/images/offers-4.png') }}" alt=""
-                                    srcset="">
+                                <img src="{{ asset('public/front/images/offers-4.png') }}" alt="" srcset="">
                             </div>
                             <div class="row">
                                 <div class="col-9">
@@ -159,22 +171,19 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide inspired-slide">
                             <div class="inspired-img">
-                                <img src="{{ asset('public/front/images/inspired-1.png') }}" alt=""
-                                    srcset="">
+                                <img src="{{ asset('public/front/images/inspired-1.png') }}" alt="" srcset="">
                             </div>
                             <h6 class="text-center my-2"> Hair</h6>
                         </div>
                         <div class="swiper-slide inspired-slide">
                             <div class="inspired-img">
-                                <img src="{{ asset('public/front/images/inspired-2.png') }}" alt=""
-                                    srcset="">
+                                <img src="{{ asset('public/front/images/inspired-2.png') }}" alt="" srcset="">
                             </div>
                             <h6 class="text-center my-2"> Hair</h6>
                         </div>
                         <div class="swiper-slide inspired-slide">
                             <div class="inspired-img">
-                                <img src="{{ asset('public/front/images/inspired-3.png') }}" alt=""
-                                    srcset="">
+                                <img src="{{ asset('public/front/images/inspired-3.png') }}" alt="" srcset="">
                             </div>
                             <h6 class="text-center my-2"> Hair</h6>
                         </div>

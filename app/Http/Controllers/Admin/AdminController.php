@@ -10,7 +10,7 @@ use App\Models\Property;
 use App\Models\Image; 
 use Illuminate\Support\Str;
 
-class DashboardController extends Controller
+class AdminController extends Controller
 { 
 
     public function __construct()

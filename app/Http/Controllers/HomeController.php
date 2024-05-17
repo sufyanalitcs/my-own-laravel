@@ -19,7 +19,7 @@ class HomeController extends Controller
         $data = [
             'title' => 'Home',
         ];
-        return view('front.home',compact('data'));
+        return view('front.pages.home',compact('data'));
     }
 
     
@@ -28,27 +28,38 @@ class HomeController extends Controller
     {
         //
         $data = [
-            'title' => 'shop',
+            'title' => 'Shop',
         ];
-        return view('front.shop',compact('data'));
+        return view('front.pages.shop',compact('data'));
     }
 
 
-
-    public function about()
+    public function shop_detail()
     {
+        //
         $data = [
-            'title' => 'About Us',
+            'title' => 'Shop Detail',
         ];
-        return view('front.aboutUs',compact('data'));
+        return view('front.pages.shop_detail',compact('data'));
     }
 
-    public function contact()
+
+    
+    public function all_works()
     {
         $data = [
-            'title' => 'Contact Us',
+            'title' => 'All Works',
         ];
-        return view('front.contactUs',compact('data'));
+        return view('front.pages.all_works',compact('data'));
+    }
+
+    
+    public function city()
+    {
+        $data = [
+            'title' => 'City',
+        ];
+        return view('front.pages.city',compact('data'));
     }
 
 
@@ -91,16 +102,6 @@ class HomeController extends Controller
              return response()->json(['status' =>  'danger' ,'message' => 'Somthing Wrong']);
         }
 
-    }
-
-    
-    public function vacation()
-    { 
-      
-        $data = [
-            'title'     => 'Vacation Homes',
-        ];
-        return view('front.vacationHomes',compact('data'));
     }
 
 

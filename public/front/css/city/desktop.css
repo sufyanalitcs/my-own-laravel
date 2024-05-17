@@ -1,5 +1,5 @@
 .banner-section {
-    background-image: url("../images/banner.png");
+    background-image: url("../../images/banner.png");
     min-height: 40vh;
     max-height: 20rem;
     height: 20rem;
@@ -22,14 +22,16 @@
 .search-div {
     margin-top: 1vw;
 }
+ 
 
 /* =========================================================== */
 
 /* Styles for screens with a maximum width of 768 pixels */
 
 @media only screen and (max-width: 768px) {
-    
+      
 
+     
 }
 
 /* =========================================================== */
@@ -48,14 +50,18 @@
         max-height: 35rem;
         height: 100%;
     }
+
     .h-1 h1 {
         font-size: 2.5rem;
         font-weight: bolder;
     }
+
     .banner-div .h-2 h2 {
         font-size: 1.5rem;
         font-weight: 300;
-    } 
+    }
+ 
+
     .offers-button-prev.swiper-button-prev {
         width: 10vw;
         height: 10vw;
@@ -70,15 +76,13 @@
 }
 
 /* ===================================================================================================== */
-/* ===================================================================================================== */
-/* ===================================================================================================== */
-/* ===================================================================================================== */
-/* ===================================================================================================== */
+
 .saloon-div {
     border: 2px solid #eee;
     border-radius: 1rem;
     margin: 0.2rem 1rem;
     padding: 0.5rem;
+    text-decoration: none;
 }
 
 .btn-gradient {
@@ -137,7 +141,7 @@
     width: 4rem;
     height: 4rem;
     position: initial;
-    background-image: url(../images/previous.png);
+    background-image: url(../../images/previous.png);
     background-size: cover;
 }
 
@@ -145,8 +149,13 @@
     width: 4rem;
     height: 4rem;
     position: initial;
-    background-image: url(../images/next.png);
+    background-image: url(../../images/next.png);
     background-size: cover;
+}
+
+.saloon-customer-button-prev:after,
+.saloon-customer-button-next:after {
+    content: "";
 }
 
 /* ========================= */

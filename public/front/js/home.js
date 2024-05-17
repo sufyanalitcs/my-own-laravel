@@ -48,13 +48,5 @@ $(document).ready(function () {
     });
 
     
-    $(document).on('mouseenter', '.category-more-text', function() {
-        $('.category-more-div').addClass('active');
-    });
-    
-    $(document).on('mouseleave', '.category-more-text', function() {
-        $('.category-more-div').removeClass('active');
-    });
-    
     
 });

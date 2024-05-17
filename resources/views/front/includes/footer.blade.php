@@ -19,16 +19,16 @@
              <div class="footer-nav">
                  <ul class="nav">
                      <li>
-                         <a class="nav-link text-white" href="about-us.html">About Us</a>
+                         <a class="nav-link text-white" href="{{ route('about-us') }}">About Us</a>
                      </li>
                      <li>
-                         <a class="nav-link text-white" href="faq.html">FAQ</a>
+                         <a class="nav-link text-white" href="{{ route('faq') }}">FAQ</a>
                      </li>
                      <li>
-                         <a class="nav-link text-white" href="privacy.html">Privacy Policy</a>
+                         <a class="nav-link text-white" href="{{ route('privacy') }}">Privacy Policy</a>
                      </li>
                      <li>
-                         <a class="nav-link text-white" href="terms.html">Terms of Service</a>
+                         <a class="nav-link text-white" href="{{ route('terms') }}">Terms of Service</a>
                      </li>
                      <li>
                          <a class="nav-link text-white" href="#">Blog</a>
@@ -37,7 +37,7 @@
                          <a class="nav-link text-white" href="#">Careers</a>
                      </li>
                      <li>
-                         <a class="nav-link text-white" href="contact.html">Contact</a>
+                         <a class="nav-link text-white" href="{{ route('contact') }}">Contact</a>
                      </li>
                  </ul>
              </div>
@@ -73,6 +73,7 @@
                          Softclusive</a>, All Right Reserved 2024
                  </p>
              </div>
+             <br>
          </div>
      </div>
  </section>

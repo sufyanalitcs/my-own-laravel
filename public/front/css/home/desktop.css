@@ -1,414 +1,384 @@
- 
-
 .banner-section {
-  min-height: 80vh;
-  max-height: 50rem;
-  height: 45rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative; /* Ensure the video stays within the section */
+    min-height: 80vh;
+    max-height: 50rem;
+    height: 45rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative; /* Ensure the video stays within the section */
 }
 
 .banner-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensure the video covers the entire section */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire section */
 }
 
-
 .h-1 h1 {
-  font-size: 5rem;
-  font-weight: bolder;
+    font-size: 5rem;
+    font-weight: bolder;
 }
 
 .banner-section > .container {
-  min-height: 60vh;
-  max-height: 35rem;
-  height: 35rem;
-  position: relative;
+    min-height: 60vh;
+    max-height: 35rem;
+    height: 35rem;
+    position: relative;
 }
 
-.banner-section  .banner-div  {
-  position: absolute;
-  z-index: 9;
-  width: 100%;
+.banner-section .banner-div {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
 }
 
 .search-div {
-  margin-top: 1vw;
+    margin-top: 1vw;
 }
 .has-search .form-control {
-  padding-left: 3vw;
-  height: 3vw;
+    padding-left: 3vw;
+    height: 3vw;
 }
 
 .has-search .form-control-feedback {
-  position: absolute;
-  z-index: 2;
-  display: block;
-  width: 3vw;
-  height: 3vw;
-  line-height: 3vw;
-  text-align: center;
-  pointer-events: none;
-  color: #aaa;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 3vw;
+    height: 3vw;
+    line-height: 3vw;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
 }
- 
 
 /* ========================================== */
 .offers-section {
-  background-image: url("../images/special-bg.png");
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: 0;
+    background-image: url("../images/special-bg.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 0;
 }
 
 .offers-section .h-2 {
-  margin: 2vw 1vw;
+    margin: 2vw 1vw;
 }
 .h-2 h2 {
-  font-weight: 900;
+    font-weight: 900;
 }
 
 .swiper-container {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 .offers-slide {
-  text-align: center;
-  background: linear-gradient(360deg, #ff6100 21%, #f03770 100%);
-  /* Center slide text vertically */
-  padding: 0.5vw;
-  border-radius: 1vw;
-  text-align: left;
-  color: #fff;
+    text-align: center;
+    background: linear-gradient(360deg, #ff6100 21%, #f03770 100%);
+    /* Center slide text vertically */
+    padding: 0.5vw;
+    border-radius: 1vw;
+    text-align: left;
+    color: #fff;
 }
 .offers-img {
-  height: 20%;
-  width: 100%;
+    height: 20%;
+    width: 100%;
 }
 
 .offers-img img {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .offers-div {
-  position: relative;
+    position: relative;
 }
 
 .offers-button-prev.swiper-button-prev {
-  width: 4rem;
-  height: 4rem;
-  left: -5%;
-  z-index: 128;
-  background-image: url(../../images/previous.png);
-  background-size: cover;
+    width: 4rem;
+    height: 4rem;
+    left: -5%;
+    z-index: 128;
+    background-image: url(../../images/previous.png);
+    background-size: cover;
 }
 
 .offers-button-next.swiper-button-next {
-  width: 4rem;
-  height: 4rem;
-  right: -5%;
-  z-index: 128;
-  background-image: url(../../images/next.png);
-  background-size: cover;
+    width: 4rem;
+    height: 4rem;
+    right: -5%;
+    z-index: 128;
+    background-image: url(../../images/next.png);
+    background-size: cover;
 }
 
-.offers-button-prev:after,  .offers-button-next:after {
-  content: '';
+.offers-button-prev:after,
+.offers-button-next:after {
+    content: "";
 }
 
 /* ======================================================== */
 
 .map-div {
-  border-radius: 1vw;
-  box-shadow: 1px 1px 6px 0;
-  padding: 2%;
+    border-radius: 1vw;
+    box-shadow: 1px 1px 6px 0;
+    padding: 2%;
 }
 .btn-gradient {
-  background: linear-gradient(90deg, #ff6100 10%, #f03770 70%);
+    background: linear-gradient(90deg, #ff6100 10%, #f03770 70%);
 }
 
 .map-img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .map-img img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 /* ======================================================== */
 
 .inspired-section {
-  background-image: url("../../images/inspired-bg.png");
-  min-height: 40vh;
-  max-height: 45rem;
-  /* height: 30rem; */
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: center;
+    background-image: url("../../images/inspired-bg.png");
+    min-height: 40vh;
+    max-height: 45rem;
+    /* height: 30rem; */
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .inspired-slide {
-  background: linear-gradient(360deg, #ff6100 21%, #f03770 100%);
-  padding: 0.5vw;
-  border-radius: 1vw;
-  color: #fff;
+    background: linear-gradient(360deg, #ff6100 21%, #f03770 100%);
+    padding: 0.5vw;
+    border-radius: 1vw;
+    color: #fff;
 }
 
 .inspired-img {
-  padding-top: 0.5vw;
-  height: 70%;
-  width: 90%;
-  margin: auto;
+    padding-top: 0.5vw;
+    height: 70%;
+    width: 90%;
+    margin: auto;
 }
 .inspired-img img {
-  height: 100%;
-  width: 100%;
-  border-radius: 0.5vw;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5vw;
 }
 
 .appointment-div {
-  border-radius: 1vw;
-  border-top: 1px solid #fe6006;
-  border-right: 4px solid #fe6006;
-  border-bottom: 4px solid #f03770;
-  border-left: 1px solid #f03770;
+    border-radius: 1vw;
+    border-top: 1px solid #fe6006;
+    border-right: 4px solid #fe6006;
+    border-bottom: 4px solid #f03770;
+    border-left: 1px solid #f03770;
 
-  box-shadow: 0 0 7px 0px;
-  padding-top: 1vw;
-  height: 100%;
+    box-shadow: 0 0 7px 0px;
+    padding-top: 1vw;
+    height: 100%;
 }
 
 .appointment-div.right {
-  border-top: 1px solid #000;
-  border-right: 4px solid #000;
-  border-bottom: 4px solid #f03770;
-  border-left: 1px solid #f03770;
+    border-top: 1px solid #000;
+    border-right: 4px solid #000;
+    border-bottom: 4px solid #f03770;
+    border-left: 1px solid #f03770;
 }
 .text-orange {
-  color: #fe600a;
+    color: #fe600a;
 }
 
 .appointment-mobile-img {
-  height: 40rem;
+    height: 40rem;
 }
 .appointment-mobile-img img {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 /* ============================ */
 .inspired-div {
-  position: relative;
+    position: relative;
 }
 
 .inspired-button-prev.swiper-button-prev {
-  width: 4rem;
-  height: 4rem;
-  right: 10%;
-  left: auto;
-  top: auto;
-  bottom: -5rem;
-  background-image: url(../../images/previous.png);
-  background-size: cover;
+    width: 4rem;
+    height: 4rem;
+    right: 10%;
+    left: auto;
+    top: auto;
+    bottom: -5rem;
+    background-image: url(../../images/previous.png);
+    background-size: cover;
 }
 
 .inspired-button-next.swiper-button-next {
-  width: 4rem;
-  height: 4rem;
-  right: 0rem;
-  bottom: -5rem;
-  left: auto;
-  top: auto;
-  background-image: url(../../images/next.png);
-  background-size: cover;
+    width: 4rem;
+    height: 4rem;
+    right: 0rem;
+    bottom: -5rem;
+    left: auto;
+    top: auto;
+    background-image: url(../../images/next.png);
+    background-size: cover;
 }
 
-
-.inspired-button-prev:after,  .inspired-button-next:after {
-  content: '';
+.inspired-button-prev:after,
+.inspired-button-next:after {
+    content: "";
 }
 
 /* ======================================================== */
 
 .better-right {
-  background-image: url("../../images/better-bg.png");
-  min-height: 30rem;
-  background-size: 40%;
-  background-repeat: no-repeat;
-  background-position: top right;
+    background-image: url("../../images/better-bg.png");
+    min-height: 30rem;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .better-left {
-  background-image: url("../../images/better-bg.png");
-  min-height: 30rem;
-  background-size: 40%;
-  background-repeat: no-repeat;
-  background-position: bottom left;
+    background-image: url("../../images/better-bg.png");
+    min-height: 30rem;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
 
 .better-img {
-  height: 25rem;
-  
-  border-radius: 15rem 0 15rem 0;
-  overflow: hidden;
-  width: 90%;
+    height: 25rem;
+    border-radius: 15rem 0 15rem 0;
+    overflow: hidden;
+    width: 90%;
 }
 
 .better-img video {
-  height: 100%;
-  width: 100%;
-  object-fit: cover; /* Ensure the video covers the entire section */
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensure the video covers the entire section */
 }
-
- 
 
 /* =========================================================== */
 
 ul.specialist-links {
-  list-style: none;
+    list-style: none;
 }
 .specialist-link {
-  text-decoration: none;
-  color: #000;
-  cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
 }
 .specialist-link:hover {
-  color: #fe6006;
+    color: #fe6006;
 }
 
 .submenu {
-  display: none; /* Initially hide the submenu */
-  list-style: none;
-  padding-left: 0;
-  position: absolute; /* Set the submenu position */
-  z-index: 1; /* Ensure submenu appears above other content */
-  background: #FFFFFF;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  margin-left: 1rem;
-  box-shadow: 0 0 6px 1px #000;
+    display: none; /* Initially hide the submenu */
+    list-style: none;
+    padding-left: 0;
+    position: absolute; /* Set the submenu position */
+    z-index: 1; /* Ensure submenu appears above other content */
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    box-shadow: 0 0 6px 1px #000;
 }
 
 .specialist-link:hover + .submenu,
 .submenu:hover {
-  display: block; /* Display the submenu when specialist-link or submenu itself is hovered */
-  color: #fe6006 !important;
+    display: block; /* Display the submenu when specialist-link or submenu itself is hovered */
+    color: #fe6006 !important;
 }
 
 .submenu li {
-  margin-top: 5px; /* Adjust spacing between submenu items */
+    margin-top: 5px; /* Adjust spacing between submenu items */
 }
 
 .submenu a {
-  text-decoration: none;
-  color: #fe6006;
+    text-decoration: none;
+    color: #fe6006;
 }
 
 .submenu a:hover {
-  color: #000;
+    color: #000;
 }
-
 
 /* =========================================================== */
 
 .recommended-section {
-  background-image: url("../../images/recommended-bg.png");
-  min-height: 50vh;
-  max-height: 55rem; 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+    background-image: url("../../images/recommended-bg.png");
+    min-height: 50vh;
+    max-height: 55rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 .recommended-title {
-  margin: 2vw 1vw;
+    margin: 2vw 1vw;
 }
 
 .recommended-card {
-  box-shadow: 1px 1px 6px 0;
-  padding: 2%;
-  background-color: #fff;
-  border-radius: 1vw;
-  min-height: 15rem;
+    box-shadow: 1px 1px 6px 0;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 1vw;
+    min-height: 15rem;
 }
 
 .recommended-img {
-  height: 80%;
-  width: 100%;
+    height: 80%;
+    width: 100%;
 }
 .recommended-img img {
-  height: 100%;
-  width: 100%;
-  border: 3px solid #f03770;
-  border-radius: 0.5vw;
+    height: 100%;
+    width: 100%;
+    border: 3px solid #f03770;
+    border-radius: 0.5vw;
 }
 
 .recommended-text {
-  text-align: center;
-  margin: 1vw;
+    text-align: center;
+    margin: 1vw;
 }
- 
-
-
 
 /* =========================================================== */
 
 /* Styles for screens with a maximum width of 768 pixels */
 
 @media only screen and (max-width: 768px) {
-  .py-5 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
-  }
-  .my-5 {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
-  }
+    /* =============================================================== */
+    .better-img {
+        height: 35vw;
+    }
+    .better-right,
+    .better-left {
+        min-height: 45vw;
+        background-size: 60%;
+    }
 
-  /* =========================================================== */
-  .has-search .form-control-feedback {
-    width: 5vw;
-    line-height: 5vw;
-  }
-  .has-search .form-control {
-    padding-left: 5vw;
-    height: 5vw;
-  }
+    .appointment-div .h-2 h2 {
+        font-size: 1.5rem;
+    }
 
- 
-  /* =============================================================== */
-  .better-img {
-    height: 35vw;
-  }
-  .better-right,
-  .better-left {
-    min-height: 45vw;
-    background-size: 60%;
-  }
+    /* =============================================================== */
+    .recommended-section {
+        height: 35rem;
+    }
 
-  .appointment-div .h-2 h2 {
-    font-size: 1.5rem;
-  }
-
-  /* =============================================================== */
-  .recommended-section {
-    height: 35rem;
-  }
-
-  .recommended-card {
-    min-height: 22vh;
-  }
-  .specialist-section {
-    margin: 5rem 0 2rem 0 !important;
-  }
+    .recommended-card {
+        min-height: 22vh;
+    }
+    .specialist-section {
+        margin: 5rem 0 2rem 0 !important;
+    }
 }
 
 /* =========================================================== */
@@ -416,98 +386,98 @@ ul.specialist-links {
 /* Styles for screens with a maximum width of 768 pixels */
 
 @media only screen and (max-width: 425px) {
-  .banner-section {
-    min-height: 40vh;
-    max-height: 50rem;
-    height: 100%;
-  }
+    .banner-section {
+        min-height: 40vh;
+        max-height: 50rem;
+        height: 100%;
+    }
 
-  .banner-section > .container {
-    min-height: 30vh;
-    max-height: 35rem;
-    height: 100%;
-  }
-  .h-1 h1 {
-    font-size: 2.5rem;
-    font-weight: bolder;
-  }
-  .banner-div .h-2 h2 {
-    font-size: 1.5rem;
-    font-weight: 300;
-  }
-  .has-search .form-control {
-    padding-left: 7vw;
-    height: 10vw;
-  }
+    .banner-section > .container {
+        min-height: 30vh;
+        max-height: 35rem;
+        height: 100%;
+    }
+    .h-1 h1 {
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+    .banner-div .h-2 h2 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .has-search .form-control {
+        padding-left: 7vw;
+        height: 10vw;
+    }
 
-  .has-search .form-control-feedback {
-    width: 7vw;
-    line-height: 10vw;
-  }
-  .form-group.has-search.w-50 {
-    width: 80% !important;
-  }
+    .has-search .form-control-feedback {
+        width: 7vw;
+        line-height: 10vw;
+    }
+    .form-group.has-search.w-50 {
+        width: 80% !important;
+    }
 
-  .offers-button-prev.swiper-button-prev {
-    width: 10vw;
-    height: 10vw;
-    left: 0;
-  }
+    .offers-button-prev.swiper-button-prev {
+        width: 10vw;
+        height: 10vw;
+        left: 0;
+    }
 
-  .offers-button-next.swiper-button-next {
-    width: 10vw;
-    height: 10vw;
-    right: 0;
-  }
-  .inspired-section {
-    height: 26rem;
-  }
+    .offers-button-next.swiper-button-next {
+        width: 10vw;
+        height: 10vw;
+        right: 0;
+    }
+    .inspired-section {
+        height: 26rem;
+    }
 
-  .inspired-button-prev.swiper-button-prev {
-    width: 10vw;
-    height: 10vw;
-    right: 10%;
-  }
+    .inspired-button-prev.swiper-button-prev {
+        width: 10vw;
+        height: 10vw;
+        right: 10%;
+    }
 
-  .inspired-button-next.swiper-button-next {
-    width: 10vw;
-    height: 10vw;
-    right: 0rem;
-    bottom: -5rem;
-  }
+    .inspired-button-next.swiper-button-next {
+        width: 10vw;
+        height: 10vw;
+        right: 0rem;
+        bottom: -5rem;
+    }
 
-  .appointment-section .row {
-    gap: 1rem;
-  }
+    .appointment-section .row {
+        gap: 1rem;
+    }
 
-  .better-right {
-    padding-right: 10%;
-    min-height: 45vw;
-    background-size: 30%;
-    justify-content: center !important;
-    background-position: top center;
-  }
+    .better-right {
+        padding-right: 10%;
+        min-height: 45vw;
+        background-size: 30%;
+        justify-content: center !important;
+        background-position: top center;
+    }
 
-  .better-left {
-    padding-left: 10%;
-    min-height: 50vw;
-    background-size: 30%;
-    justify-content: center !important;
-    background-position: bottom center;
-  }
+    .better-left {
+        padding-left: 10%;
+        min-height: 50vw;
+        background-size: 30%;
+        justify-content: center !important;
+        background-position: bottom center;
+    }
 
-  .better-section .w-75 {
-    width: 100% !important;
-  }
+    .better-section .w-75 {
+        width: 100% !important;
+    }
 
-  .better-section#banner-2 .row {
-    flex-direction: column-reverse;
-  }
+    .better-section#banner-2 .row {
+        flex-direction: column-reverse;
+    }
 
-  .recommended-section {
-    height: 45rem;
-  }
+    .recommended-section {
+        height: 45rem;
+    }
 
-  .recommended-text h4{
-  }
+    .recommended-text h4 {
+    }
 }

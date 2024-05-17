@@ -1,0 +1,41 @@
+/* =========================================================== */
+
+/* Styles for screens with a maximum width of 768 pixels */
+
+@media only screen and (max-width: 768px) {
+    .py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .my-5 {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+ 
+}
+
+/* =========================================================== */
+
+/* Styles for screens with a maximum width of 425 pixels */
+
+@media only screen and (max-width: 425px) {
+    .banner-section {
+        min-height: 40vh;
+        max-height: 50rem;
+        height: 100%;
+    }
+
+    .banner-section > .container {
+        min-height: 30vh;
+        max-height: 35rem;
+        height: 100%;
+    }
+    .h-1 h1 {
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+    .banner-div .h-2 h2 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    } 
+}
