@@ -28,7 +28,7 @@
                                  <option value="UK">UK</option>
                              </select>
                          </li>
-                         <li><a href="seller-account.html" class="nav-link px-2 text-white">Seller Account</a></li>
+                         <li><a href="{{ route('seller-account') }}" class="nav-link px-2 text-white">Seller Account</a></li>
 
                      </ul>
                  </div>

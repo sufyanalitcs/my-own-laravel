@@ -59,20 +59,7 @@
     .banner-div .h-2 h2 {
         font-size: 1.5rem;
         font-weight: 300;
-    }
- 
-
-    .offers-button-prev.swiper-button-prev {
-        width: 10vw;
-        height: 10vw;
-        left: 0;
-    }
-
-    .offers-button-next.swiper-button-next {
-        width: 10vw;
-        height: 10vw;
-        right: 0;
-    }
+    } 
 }
 
 /* ===================================================================================================== */

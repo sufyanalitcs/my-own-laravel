@@ -1,0 +1,25 @@
+.seller-footer {
+    height: 20rem;
+}
+
+.footer-logo {
+    margin: auto;
+}
+.social-nav {
+    margin: 1rem 0;
+}
+.social-nav .nav-link {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0 0.5rem;
+}
+
+.footer-title {
+    color: #ed255c;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.footer-link a {
+    text-decoration: none;
+    color: #fff;
+}

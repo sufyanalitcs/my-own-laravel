@@ -33,7 +33,6 @@
                 <div class="near-salon-container swiper-container">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
-
                         <a class="swiper-slide near-salon-slide" href="{{ route('shop-detail') }}">
                             <div class="near-salon-img">
                                 <img src="{{ asset('public/front/images/near-1.png') }}" alt="" srcset="">
@@ -53,9 +52,7 @@
                                     <i class="fa-solid fa-car"></i>
                                 </div>
                             </div>
-
                             <span class="promoted">promoted <i class="fa-solid fa-circle-info"></i></span>
-
                         </a>
 
                         <a class="swiper-slide near-salon-slide" href="{{ route('shop-detail') }}">
