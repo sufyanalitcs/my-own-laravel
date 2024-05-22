@@ -26,7 +26,6 @@ $(document).ready(function () {
         },
     });
 
-
     // Swiper:  seller Slider
     new Swiper(".schedule-container", {
         loop: true,
@@ -36,50 +35,65 @@ $(document).ready(function () {
         breakpoints: {
             1920: {
                 slidesPerView: 6,
-                spaceBetween: 30
+                spaceBetween: 30,
             },
             800: {
                 slidesPerView: 4,
-                spaceBetween: 30
+                spaceBetween: 30,
             },
             480: {
                 slidesPerView: 3,
-                spaceBetween: 10
-            }
-
+                spaceBetween: 10,
+            },
         },
     });
-
-
-    
-
 
     // Swiper:  seller Slider
     new Swiper(".tour-container", {
         loop: true,
         slidesPerView: 1,
-        nextButton: '.tour-button-next',
-        prevButton: '.tour-button-prev',
+        nextButton: ".tour-button-next",
+        prevButton: ".tour-button-prev",
         paginationClickable: true,
         spaceBetween: 20,
         breakpoints: {
             1920: {
                 slidesPerView: 2,
-                spaceBetween: 30
+                spaceBetween: 30,
             },
             1028: {
                 slidesPerView: 2,
-                spaceBetween: 30
+                spaceBetween: 30,
             },
             800: {
                 slidesPerView: 1,
-                spaceBetween: 10
-            }, 
-
+                spaceBetween: 10,
+            },
         },
     });
 
-
-    new bootstrap.Popover(document.querySelector('#first'));
-
+    // Swiper:  software Slider
+    new Swiper(".software-container", {
+        loop: true,
+        slidesPerView: 3,
+        centeredSlides: true,
+        roundLengths: true,
+        loop: true,
+        loopAdditionalSlides: 30,
+        spaceBetween: 20,
+        breakpoints: {
+            1920: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            800: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            480: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+        },
+    });
 });
