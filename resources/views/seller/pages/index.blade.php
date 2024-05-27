@@ -38,7 +38,6 @@
         </div>
     </section>
 
-
     <section class="online-section my-3">
         <div class="container">
             <img class="online-left" src="{{ asset('public/seller/images/online-left.png') }}" alt=""
@@ -59,7 +58,6 @@
                             <a class="btn btn-danger">SIGN ME UP</a>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-6">
                     <div class="online-img-container w-100">
@@ -73,11 +71,8 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </section>
-
 
     <section class="scheduling-section my-3">
         <div class="container">
@@ -132,7 +127,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="tour-section my-5">
 
@@ -297,14 +291,10 @@
         </div>
     </section>
 
-
-
     <section class="calendar-section my-5">
         <div class="container">
             <h6>My Own Appointments Biz Lite</h6>
-            <h2 class="w-25"> <b>Appointments, calendar, and
-                    clients on the go.</b> </h2>
-
+            <h2 class="w-25"> <b>Appointments, calendar, and clients on the go.</b> </h2>
             <div class="row">
                 <div class="col-4">
                     <div class="content">
@@ -552,10 +542,7 @@
             </div>
         </div>
 
-
     </section>
-
-
 
     @include('seller.includes.footer')
 @endsection

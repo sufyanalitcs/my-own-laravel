@@ -1,4 +1,4 @@
-<section class="seller-footer bg-dark">
+<section class="seller-footer bg-dark py-3">
 
     <div class="container h-100">
         <div class="row h-100">
