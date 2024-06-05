@@ -1,8 +1,8 @@
 @extends('front.layouts.app')
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('public/front/css/dashboard/common.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/front/css/dashboard/family_and_friends.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/dashboard/common.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/dashboard/family_and_friends.css') }}">
 @endsection
 
 
@@ -26,7 +26,7 @@
                 <div class="col-4 dashboard-left">
                     <div class="profile-container d-flex flex-column align-items-center">
                         <div class="profile-img">
-                            <img src="{{ asset('public/front/images/barber.png') }}" alt="" srcset="">
+                            <img src="{{ asset('front/images/barber.png') }}" alt="" srcset="">
                         </div>
                         <h4 class="profile-name">
                             Jack Ronald
@@ -60,7 +60,7 @@
                     <button class="btn btn-danger">Add Members</button>
 
                     <div class="family-img">
-                        <img src="{{ asset('public/front/images/family.png') }}" alt="" srcset="">
+                        <img src="{{ asset('front/images/family.png') }}" alt="" srcset="">
                     </div>
 
                 </div>
@@ -74,5 +74,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('public/front/js/dashboard/family_and_friends.js') }}"></script>
+    <script src="{{ asset('front/js/dashboard/family_and_friends.js') }}"></script>
 @endsection

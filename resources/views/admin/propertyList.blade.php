@@ -62,7 +62,7 @@
                                     <td width="25">{{ $property->short_description }}</td>
                                     <td width="25">
                                         <div class="feautred-img">
-                                            <img src="{{ asset('public/front/images/product/' . $property->featured_image) }}"
+                                            <img src="{{ asset('front/images/product/' . $property->featured_image) }}"
                                                 alt="{{ $property->name }}">
                                         </div>
                                     </td>
@@ -88,7 +88,7 @@
 
 
 @section('script')
-    <script src="{{ asset('public/admin/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset('public/admin/js/dataTables.bootstrap4.min.js') }}"></script>
-    <script src="{{ asset('public/admin/js/contact-list/script.js') }}"></script>
+    <script src="{{ asset('admin/js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('admin/js/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('admin/js/contact-list/script.js') }}"></script>
 @endsection

@@ -1,7 +1,7 @@
 @extends('admin.layouts.app')
 
 @section('styles')
-    <link rel="stylesheet" href="{{ asset('public/admin/css/property/property-add.css') }}">
+    <link rel="stylesheet" href="{{ asset('admin/css/property/property-add.css') }}">
 
     <script src="https://cdn.tiny.cloud/1/ju1bvikv973o0e3f8964tro1flrl91rhqoyng6mnle3mvrux/tinymce/6/tinymce.min.js"
         referrerpolicy="origin"></script>
@@ -265,5 +265,5 @@
             return b.files
         }
     </script>
-    <script src="{{ asset('public/admin/js/property/property-add.js') }}"></script>
+    <script src="{{ asset('admin/js/property/property-add.js') }}"></script>
 @endsection

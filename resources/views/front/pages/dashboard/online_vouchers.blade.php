@@ -1,8 +1,8 @@
 @extends('front.layouts.app')
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('public/front/css/dashboard/common.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/front/css/dashboard/online_vouchers.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/dashboard/common.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/dashboard/online_vouchers.css') }}">
 @endsection
 
 
@@ -26,7 +26,7 @@
                 <div class="col-4 dashboard-left">
                     <div class="profile-container d-flex flex-column align-items-center">
                         <div class="profile-img">
-                            <img src="{{ asset('public/front/images/barber.png') }}" alt="" srcset="">
+                            <img src="{{ asset('front/images/barber.png') }}" alt="" srcset="">
                         </div>
                         <h4 class="profile-name">
                             Jack Ronald
@@ -62,7 +62,7 @@
                     </div>
                     <div class="no-card d-flex flex-column align-items-center p-5">
                         <div class="no-card-img">
-                            <img src="{{ asset('public/front/images/no-card.png') }}" alt="">
+                            <img src="{{ asset('front/images/no-card.png') }}" alt="">
                         </div>
                         <h3 class="no-card-heading">
                             No Cards yet
@@ -79,5 +79,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('public/front/js/dashboard/online_vouchers.js') }}"></script>
+    <script src="{{ asset('front/js/dashboard/online_vouchers.js') }}"></script>
 @endsection

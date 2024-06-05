@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('public/front/css/all-works/desktop.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/all-works/desktop.css') }}">
 @endsection
 
 
@@ -37,7 +37,7 @@
                         <div class="all-works-section">
                             <div class="all-works-div">
                                 <div class="all-work-img">
-                                    <img src="{{ asset('public/front/images/all-works-1.jpeg') }}" alt=""
+                                    <img src="{{ asset('front/images/all-works-1.jpeg') }}" alt=""
                                         srcset="">
                                 </div>
                                 <div class="all-work-social">
@@ -49,7 +49,7 @@
                             </div>
                             <div class="all-works-div">
                                 <div class="all-work-img">
-                                    <img src="{{ asset('public/front/images/all-works-2.jpeg') }}" alt=""
+                                    <img src="{{ asset('front/images/all-works-2.jpeg') }}" alt=""
                                         srcset="">
                                 </div>
                                 <div class="all-work-social">
@@ -61,7 +61,7 @@
                             </div>
                             <div class="all-works-div">
                                 <div class="all-work-img">
-                                    <img src="{{ asset('public/front/images/all-works-3.jpeg') }}" alt=""
+                                    <img src="{{ asset('front/images/all-works-3.jpeg') }}" alt=""
                                         srcset="">
                                 </div>
                                 <div class="all-work-social">
@@ -73,7 +73,7 @@
                             </div>
                             <div class="all-works-div">
                                 <div class="all-work-img">
-                                    <img src="{{ asset('public/front/images/all-works-4.jpeg') }}" alt=""
+                                    <img src="{{ asset('front/images/all-works-4.jpeg') }}" alt=""
                                         srcset="">
                                 </div>
                                 <div class="all-work-social">
@@ -85,7 +85,7 @@
                             </div>
                             <div class="all-works-div">
                                 <div class="all-work-img">
-                                    <img src="{{ asset('public/front/images/all-works-1.jpeg') }}" alt=""
+                                    <img src="{{ asset('front/images/all-works-1.jpeg') }}" alt=""
                                         srcset="">
                                 </div>
                                 <div class="all-work-social">
@@ -97,7 +97,7 @@
                             </div>
                             <div class="all-works-div">
                                 <div class="all-work-img">
-                                    <img src="{{ asset('public/front/images/all-works-2.jpeg') }}" alt=""
+                                    <img src="{{ asset('front/images/all-works-2.jpeg') }}" alt=""
                                         srcset="">
                                 </div>
                                 <div class="all-work-social">
@@ -358,5 +358,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('public/front/js/all-works.js') }}"></script>
+    <script src="{{ asset('front/js/all-works.js') }}"></script>
 @endsection

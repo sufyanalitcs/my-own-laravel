@@ -1,8 +1,8 @@
 @extends('front.layouts.app')
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('public/front/css/other/common.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/front/css/other/about_us.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/other/common.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/other/about_us.css') }}">
 @endsection
 
 
@@ -47,5 +47,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('public/front/js/other/about_us.js') }}"></script>
+    <script src="{{ asset('front/js/other/about_us.js') }}"></script>
 @endsection

@@ -4,19 +4,19 @@
         <div class="row h-100">
             <div class="col-3">
                 <div class="footer-logo">
-                    <img src="{{ asset('public/seller/images/footer-logo.png') }}" alt="" srcset="">
+                    <img src="{{ asset('seller/images/footer-logo.png') }}" alt="" srcset="">
                 </div>
 
                 <div class="row">
                     <div class="col-6 text-end">
                         <div class="store-img">
-                            <img class="w-100" src="{{ asset('public/front/images/google-play.png') }}" alt=""
+                            <img class="w-100" src="{{ asset('front/images/google-play.png') }}" alt=""
                                 srcset="">
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="store-img">
-                            <img class="w-100" src="{{ asset('public/front/images/app-store.png') }}" alt=""
+                            <img class="w-100" src="{{ asset('front/images/app-store.png') }}" alt=""
                                 srcset="">
                         </div>
                     </div>
@@ -85,7 +85,7 @@
 
             <div class="col-3 d-flex justify-content-center align-self-end">
                 <div class="footer-img w-75 h-50 ">
-                    <img class="w-75 h-100" src="{{ asset('public/seller/images/footer-img.png') }}" alt="">
+                    <img class="w-75 h-100" src="{{ asset('seller/images/footer-img.png') }}" alt="">
                 </div>
             </div>
         </div>

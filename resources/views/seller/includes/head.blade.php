@@ -1,14 +1,14 @@
 <meta charset="utf-8">
 <meta name="description" content="">
-<link rel="icon" type="image/x-icon" href="{{ asset('public/seller/images/logo.png') }}">
+<link rel="icon" type="image/x-icon" href="{{ asset('seller/images/logo.png') }}">
 
 <title>{{ $data['title'] }} | My Own Appointments</title>
 
 
 {{-- bootstrap css --}}
-<link rel="stylesheet" href="{{ asset('public/assets/css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 {{-- swipper css --}}
-<link rel="stylesheet" href="{{ asset('public/assets/css/swiper.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/swiper.min.css') }}">
 
 
 {{-- fontawesome --}}
@@ -17,8 +17,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 {{-- common css --}}
-<link rel="stylesheet" href="{{ asset('public/seller/css/common.css') }}">
+<link rel="stylesheet" href="{{ asset('seller/css/common.css') }}">
 
 {{-- custom css --}}
-<link rel="stylesheet" href="{{ asset('public/seller/css/header.css') }}">
-<link rel="stylesheet" href="{{ asset('public/seller/css/footer.css') }}">
+<link rel="stylesheet" href="{{ asset('seller/css/header.css') }}">
+<link rel="stylesheet" href="{{ asset('seller/css/footer.css') }}">

@@ -1,14 +1,14 @@
 @extends('front.layouts.app')
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('public/front/css/home/desktop.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/home/desktop.css') }}">
 @endsection
 
 
 @section('content')
     <section class="banner-section">
         <video autoplay muted loop class="banner-video">
-            <source src="{{ asset('public/front/videos/bg2.mp4') }}" type="video/mp4">
+            <source src="{{ asset('front/videos/bg2.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         @include('front.includes.header')
@@ -49,7 +49,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide offers-slide">
                             <div class="offers-img">
-                                <img src="{{ asset('public/front/images/offers-1.png') }}" alt="" srcset="">
+                                <img src="{{ asset('front/images/offers-1.png') }}" alt="" srcset="">
                             </div>
                             <div class="row">
                                 <div class="col-9">
@@ -69,7 +69,7 @@
                         </div>
                         <div class="swiper-slide offers-slide">
                             <div class="offers-img">
-                                <img src="{{ asset('public/front/images/offers-2.png') }}" alt="" srcset="">
+                                <img src="{{ asset('front/images/offers-2.png') }}" alt="" srcset="">
                             </div>
                             <div class="row">
                                 <div class="col-9">
@@ -89,7 +89,7 @@
                         </div>
                         <div class="swiper-slide offers-slide">
                             <div class="offers-img">
-                                <img src="{{ asset('public/front/images/offers-3.png') }}" alt="" srcset="">
+                                <img src="{{ asset('front/images/offers-3.png') }}" alt="" srcset="">
                             </div>
                             <div class="row">
                                 <div class="col-9">
@@ -110,7 +110,7 @@
 
                         <div class="swiper-slide offers-slide">
                             <div class="offers-img">
-                                <img src="{{ asset('public/front/images/offers-4.png') }}" alt="" srcset="">
+                                <img src="{{ asset('front/images/offers-4.png') }}" alt="" srcset="">
                             </div>
                             <div class="row">
                                 <div class="col-9">
@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-md-6 col-12">
                     <div class="map-img">
-                        <img src="{{ asset('public/front/videos/map.gif') }}" alt="">
+                        <img src="{{ asset('front/videos/map.gif') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -171,32 +171,32 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide inspired-slide">
                             <div class="inspired-img">
-                                <img src="{{ asset('public/front/images/inspired-1.png') }}" alt="" srcset="">
+                                <img src="{{ asset('front/images/inspired-1.png') }}" alt="" srcset="">
                             </div>
                             <h6 class="text-center my-2"> Hair</h6>
                         </div>
                         <div class="swiper-slide inspired-slide">
                             <div class="inspired-img">
-                                <img src="{{ asset('public/front/images/inspired-2.png') }}" alt="" srcset="">
+                                <img src="{{ asset('front/images/inspired-2.png') }}" alt="" srcset="">
                             </div>
                             <h6 class="text-center my-2"> Hair</h6>
                         </div>
                         <div class="swiper-slide inspired-slide">
                             <div class="inspired-img">
-                                <img src="{{ asset('public/front/images/inspired-3.png') }}" alt="" srcset="">
+                                <img src="{{ asset('front/images/inspired-3.png') }}" alt="" srcset="">
                             </div>
                             <h6 class="text-center my-2"> Hair</h6>
                         </div>
                         <div class="swiper-slide inspired-slide">
                             <div class="inspired-img">
-                                <img src="{{ asset('public/front/images/inspired-4.png') }}" alt=""
+                                <img src="{{ asset('front/images/inspired-4.png') }}" alt=""
                                     srcset="">
                             </div>
                             <h6 class="text-center my-2"> Hair</h6>
                         </div>
                         <div class="swiper-slide inspired-slide">
                             <div class="inspired-img">
-                                <img src="{{ asset('public/front/images/inspired-5.png') }}" alt=""
+                                <img src="{{ asset('front/images/inspired-5.png') }}" alt=""
                                     srcset="">
                             </div>
                             <h6 class="text-center my-2"> Hair</h6>
@@ -218,7 +218,7 @@
                 <div class="col-md-6 col-12">
                     <div class="appointment-div d-flex flex-column align-items-center justify-content-end">
                         <div class="appointment-img">
-                            <img src="{{ asset('public/front/images/logo-no.png') }}" alt="" srcset="">
+                            <img src="{{ asset('front/images/logo-no.png') }}" alt="" srcset="">
                         </div>
                         <div class="h-6 my-2 text-center">
                             <h6>MY OWN APPOINTMENTS • iOS, Android</h6>
@@ -233,14 +233,14 @@
                         </div>
                         <button class="btn btn-danger btn-gradient mb-3">Download</button>
                         <div class="appointment-mobile-img">
-                            <img src="{{ asset('public/front/images/mobile.png') }}" alt="" srcset="">
+                            <img src="{{ asset('front/images/mobile.png') }}" alt="" srcset="">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
                     <div class="appointment-div right d-flex flex-column align-items-center">
                         <div class="appointment-img">
-                            <img src="{{ asset('public/front/images/logo-no.png') }}" alt="" srcset="">
+                            <img src="{{ asset('front/images/logo-no.png') }}" alt="" srcset="">
                         </div>
                         <div class="h-6 my-2 text-center">
                             <h6>MY OWN APPOINTMENTS • iOS, Android</h6>
@@ -258,7 +258,7 @@
                         <button class="btn btn-dark mb-3">Grow My Business</button>
 
                         <div class="appointment-mobile-img">
-                            <img src="{{ asset('public/front/images/mobile.png') }}" alt="" srcset="">
+                            <img src="{{ asset('front/images/mobile.png') }}" alt="" srcset="">
                         </div>
                     </div>
                 </div>
@@ -288,7 +288,7 @@
                     <div class="better-right d-flex align-items-end justify-content-end">
                         <div class="better-img">
                             <video autoplay muted loop class="better-video">
-                                <source src="{{ asset('public/front/videos/better-1.mp4') }}" type="video/mp4">
+                                <source src="{{ asset('front/videos/better-1.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -305,7 +305,7 @@
                     <div class="better-left d-flex align-items-center justify-content-start">
                         <div class="better-img" id="better-2">
                             <video autoplay muted loop class="better-video">
-                                <source src="{{ asset('public/front/videos/better-2.mp4') }}" type="video/mp4">
+                                <source src="{{ asset('front/videos/better-2.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -346,7 +346,7 @@
                     <div class="better-right d-flex align-items-end justify-content-end">
                         <div class="better-img">
                             <video autoplay muted loop class="better-video">
-                                <source src="{{ asset('public/front/videos/better-1.mp4') }}" type="video/mp4">
+                                <source src="{{ asset('front/videos/better-1.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -674,7 +674,7 @@
                 <div class="col-4">
                     <div class="recommended-card">
                         <div class="recommended-img">
-                            <img src="{{ asset('public/front/images/recomend.png') }}" alt="" srcset="">
+                            <img src="{{ asset('front/images/recomend.png') }}" alt="" srcset="">
                         </div>
                         <div class="h-4 recommended-text">
                             <h4>Aftercare advices for cutting hair</h4>
@@ -684,7 +684,7 @@
                 <div class="col-4">
                     <div class="recommended-card">
                         <div class="recommended-img">
-                            <img src="{{ asset('public/front/images/recomend.png') }}" alt="" srcset="">
+                            <img src="{{ asset('front/images/recomend.png') }}" alt="" srcset="">
                         </div>
                         <div class="h-4 recommended-text">
                             <h4>7 Haircuts For A Receding Hairline</h4>
@@ -694,7 +694,7 @@
                 <div class="col-4">
                     <div class="recommended-card">
                         <div class="recommended-img">
-                            <img src="{{ asset('public/front/images/recomend.png') }}" alt="" srcset="">
+                            <img src="{{ asset('front/images/recomend.png') }}" alt="" srcset="">
                         </div>
                         <div class="h-4 recommended-text">
                             <h4>Best Mustache Styles</h4>
@@ -708,5 +708,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('public/front/js/home.js') }}"></script>
+    <script src="{{ asset('front/js/home.js') }}"></script>
 @endsection

@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('public/front/css/city/desktop.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/city/desktop.css') }}">
 @endsection
 
 
@@ -39,7 +39,7 @@
                         matches your budget level!</p>
                 </div>
                 <div class="saloon-img">
-                    <img src="{{ asset('public/front/images/saloon-old.png') }}" alt="" srcset="">
+                    <img src="{{ asset('front/images/saloon-old.png') }}" alt="" srcset="">
                 </div>
 
             </div>
@@ -155,19 +155,19 @@
             <div class="swiper-wrapper salon-slide-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide salon-slide">
-                    <img src="{{ asset('public/front/images/slides-1.png') }}" alt="" srcset="">
+                    <img src="{{ asset('front/images/slides-1.png') }}" alt="" srcset="">
                 </div>
                 <div class="swiper-slide salon-slide">
-                    <img src="{{ asset('public/front/images/slides-2.png') }}" alt="" srcset="">
+                    <img src="{{ asset('front/images/slides-2.png') }}" alt="" srcset="">
                 </div>
                 <div class="swiper-slide salon-slide">
-                    <img src="{{ asset('public/front/images/slides-3.png') }}" alt="" srcset="">
+                    <img src="{{ asset('front/images/slides-3.png') }}" alt="" srcset="">
                 </div>
                 <div class="swiper-slide salon-slide">
-                    <img src="{{ asset('public/front/images/slides-4.png') }}" alt="" srcset="">
+                    <img src="{{ asset('front/images/slides-4.png') }}" alt="" srcset="">
                 </div>
                 <div class="swiper-slide salon-slide">
-                    <img src="{{ asset('public/front/images/slides-5.png') }}" alt="" srcset="">
+                    <img src="{{ asset('front/images/slides-5.png') }}" alt="" srcset="">
                 </div>
             </div>
         </div>
@@ -211,7 +211,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-2">
-                                    <img src="{{ asset('public/front/images/customer-1.png') }}" alt=""
+                                    <img src="{{ asset('front/images/customer-1.png') }}" alt=""
                                         srcset="">
                                 </div>
                                 <div class="col-10">
@@ -240,7 +240,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-2">
-                                    <img src="{{ asset('public/front/images/customer-1.png') }}" alt=""
+                                    <img src="{{ asset('front/images/customer-1.png') }}" alt=""
                                         srcset="">
                                 </div>
                                 <div class="col-10">
@@ -269,7 +269,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-2">
-                                    <img src="{{ asset('public/front/images/customer-1.png') }}" alt=""
+                                    <img src="{{ asset('front/images/customer-1.png') }}" alt=""
                                         srcset="">
                                 </div>
                                 <div class="col-10">
@@ -289,7 +289,7 @@
 
     <section class="hair-section my-3">
         <div class="container">
-            <img src="{{ asset('public/front/images/hair.png') }}" class="w-100" alt="" srcset="">
+            <img src="{{ asset('front/images/hair.png') }}" class="w-100" alt="" srcset="">
         </div>
     </section>
 
@@ -455,7 +455,7 @@
                 </div>
                 <div class="col-3">
                     <div class="provide-img">
-                        <img src="{{ asset('public/front/images/provide.png') }}" alt="" srcset="">
+                        <img src="{{ asset('front/images/provide.png') }}" alt="" srcset="">
                     </div>
                 </div>
             </div>
@@ -465,5 +465,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('public/front/js/city.js') }}"></script>
+    <script src="{{ asset('front/js/city.js') }}"></script>
 @endsection

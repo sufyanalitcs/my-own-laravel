@@ -3,7 +3,7 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center w-100" href="{{ route('admin.home') }}">
-        <img src="{{ asset('public/front/images/logo.png') }}" alt="" class="w-100" srcset="">
+        <img src="{{ asset('front/images/logo.png') }}" alt="" class="w-100" srcset="">
     </a>
 
     <!-- Divider -->

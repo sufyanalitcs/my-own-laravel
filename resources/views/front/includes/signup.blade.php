@@ -1,4 +1,3 @@
-
 <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content model-gradient">
@@ -7,27 +6,28 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+                <div id="register-message" class="mt-3"></div>
 
-                <form>
+                <form id="register-form" action="{{ route('register') }}" method="POST">
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1"
-                            aria-describedby="emailHelp">
+                        <label for="signup-email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="signup-email" aria-describedby="emailHelp">
                     </div>
 
                     <div class="mb-3">
-                        <label for="Name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="Name">
+                        <label for="signup-name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="signup-name">
                     </div>
                     <div class="mb-3">
-                        <label for="phone" class="form-label">Phone</label>
-                        <input type="text" class="form-control" id="phone">
+                        <label for="signup-password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="signup-password">
                     </div>
+
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <label for="signup-password_confirmation" class="form-label">Password Confirmation</label>
+                        <input type="password" class="form-control" id="signup-password">
                     </div>
-                    <a href="{{ route('dashboard') }}" class="btn btn-primary">Creat Account</a>
+                    <button type="submit" class="btn btn-primary">Creat Account</button>
                 </form>
 
                 <br>
@@ -40,4 +40,3 @@
         </div>
     </div>
 </div>
-

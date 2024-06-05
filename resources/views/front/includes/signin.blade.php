@@ -7,17 +7,18 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+                <div id="login-message" class="my-3"></div>
 
-                <form id="login-form">
+                <form id="login-form" action="{{ route('login') }}">
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1"
+                        <label for="login-email" class="form-label">Email address</label>
+                        <input type="email" name="login-email" class="form-control" id="login-email"
                             aria-describedby="emailHelp">
                     </div>
 
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <label for="login-password" class="form-label">Password</label>
+                        <input type="password" name="login-password" class="form-control" id="login-password">
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
@@ -28,14 +29,17 @@
                     <div class="line"></div>
                 </div>
 
-                <button type="submit" class="btn btn-light">
-                    <i class="fa-brands fa-google"></i> Google</button>
+                <a type="submit" href="{{ route('auth.google') }}" class="btn btn-light">
+                    <i class="fa-brands fa-google"></i> Google</a>
+                    
                 <button type="submit" class="btn btn-light">
                     <i class="fa-brands fa-square-facebook"></i> Facebook</button>
 
 
                 <br>
-                <p>Don’t have an account?<a href=""> Sign Up Now</a></p>
+                <p>Don’t have an account?
+                    <a href="#" type="button"  data-bs-toggle="modal"
+                    data-bs-target="#signupModal" > Sign Up Now</a></p>
 
             </div>
 

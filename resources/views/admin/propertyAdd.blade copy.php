@@ -113,5 +113,5 @@
 
 
 @section('script')
-    <script src="{{ asset('public/admin/js/property/property-add.js') }}"></script>
+    <script src="{{ asset('admin/js/property/property-add.js') }}"></script>
 @endsection

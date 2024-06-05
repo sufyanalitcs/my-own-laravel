@@ -9,6 +9,10 @@ use Auth;
 
 use App\Http\Controllers\Admin\AdminController;
 
+use App\Http\Controllers\Auth\LoginController;
+
+Route::get('google', [LoginController::class, 'redirectToGoogle'])->name('auth.google');
+Route::get('google/callback', [LoginController::class, 'handleGoogleCallback']);
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +39,7 @@ Route::get('/clear-cache', function () {
 
 
 Route::controller(HomeController::class)->group(function () {
-    Route::get('/', 'index')->name('home'); 
+    Route::get('/', 'index')->name('index'); 
     Route::get('/home', 'index')->name('home'); 
     Route::get('/shop', 'shop')->name('shop'); 
     Route::get('/shop-detail', 'shop_detail')->name('shop-detail'); 

@@ -1,8 +1,8 @@
 @extends('front.layouts.app')
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('public/front/css/dashboard/common.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/front/css/dashboard/consents.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/dashboard/common.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/dashboard/consents.css') }}">
 @endsection
 
 
@@ -26,7 +26,7 @@
                 <div class="col-4 dashboard-left">
                     <div class="profile-container d-flex flex-column align-items-center">
                         <div class="profile-img">
-                            <img src="{{ asset('public/front/images/barber.png') }}" alt="" srcset="">
+                            <img src="{{ asset('front/images/barber.png') }}" alt="" srcset="">
                         </div>
                         <h4 class="profile-name">
                             Jack Ronald
@@ -54,7 +54,7 @@
                     <h2>Custom Forms</h3>
                         <div class="contact-form d-flex flex-column align-items-center p-5">
                             <div class="contact-form-img">
-                                <img src="{{ asset('public/front/images/form.png') }}" alt="">
+                                <img src="{{ asset('front/images/form.png') }}" alt="">
                             </div>
 
                             <h3 class="contact-form-heading mt-3">
@@ -75,5 +75,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('public/front/js/dashboard/consents.js') }}"></script>
+    <script src="{{ asset('front/js/dashboard/consents.js') }}"></script>
 @endsection

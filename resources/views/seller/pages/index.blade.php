@@ -1,7 +1,7 @@
 @extends('seller.layouts.app')
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('public/seller/css/index/desktop.css') }}">
+    <link rel="stylesheet" href="{{ asset('seller/css/index/desktop.css') }}">
 @endsection
 
 @section('content')
@@ -15,20 +15,20 @@
                     <!-- Slides -->
                     <div class="swiper-slide">
                         <div class="seller-banner-img">
-                            <img class="w-100" src="{{ asset('public/seller/images/seller-banner-2.png') }}" alt=""
+                            <img class="w-100" src="{{ asset('seller/images/seller-banner-2.png') }}" alt=""
                                 srcset="">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="seller-banner-img">
-                            <img class="w-100" src="{{ asset('public/seller/images/seller-banner-1.png') }}" alt=""
+                            <img class="w-100" src="{{ asset('seller/images/seller-banner-1.png') }}" alt=""
                                 srcset="">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="seller-banner-img">
-                            <img class="w-100" src="{{ asset('public/seller/images/seller-banner-3.png') }}" alt=""
+                            <img class="w-100" src="{{ asset('seller/images/seller-banner-3.png') }}" alt=""
                                 srcset="">
                         </div>
                     </div>
@@ -40,9 +40,9 @@
 
     <section class="online-section my-3">
         <div class="container">
-            <img class="online-left" src="{{ asset('public/seller/images/online-left.png') }}" alt=""
+            <img class="online-left" src="{{ asset('seller/images/online-left.png') }}" alt=""
                 srcset="">
-            <img class="online-right" src="{{ asset('public/seller/images/online-right.png') }}" alt=""
+            <img class="online-right" src="{{ asset('seller/images/online-right.png') }}" alt=""
                 srcset="">
 
             <div class="row h-100">
@@ -62,11 +62,11 @@
                 <div class="col-6">
                     <div class="online-img-container w-100">
                         <div class="online-img" id="online-img-1">
-                            <img src="{{ asset('public/seller/images/online-mobile.png') }}" alt="" srcset="">
+                            <img src="{{ asset('seller/images/online-mobile.png') }}" alt="" srcset="">
                         </div>
 
                         <div class="online-img" id="online-img-2">
-                            <img src="{{ asset('public/seller/images/online-mobile.png') }}" alt="" srcset="">
+                            <img src="{{ asset('seller/images/online-mobile.png') }}" alt="" srcset="">
                         </div>
                     </div>
                 </div>
@@ -131,13 +131,13 @@
     <section class="tour-section my-5">
 
         <div class="container  ">
-            <img class="tour-bg" src="{{ asset('public/seller/images/tour-bg-img.png') }}" alt="">
+            <img class="tour-bg" src="{{ asset('seller/images/tour-bg-img.png') }}" alt="">
             <div class="tour-container swiper-container h-100">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper tour-wrapper">
                     <div class="swiper-slide tour-card">
                         <div class="tour-img">
-                            <img src="{{ asset('public/seller/images/tour-1.png') }}" alt="">
+                            <img src="{{ asset('seller/images/tour-1.png') }}" alt="">
                         </div>
                         <div class="tour-info d-flex flex-column align-items-center justify-content-center">
                             <h5>Product video</h5>
@@ -155,7 +155,7 @@
 
                     <div class="swiper-slide tour-card">
                         <div class="tour-img">
-                            <img src="{{ asset('public/seller/images/tour-2.png') }}" alt="">
+                            <img src="{{ asset('seller/images/tour-2.png') }}" alt="">
                         </div>
                         <div class="tour-info d-flex flex-column align-items-center justify-content-center">
                             <h5>Product video</h5>
@@ -181,8 +181,8 @@
 
     <section class="tool-section overflow-hidden my-5">
         <div class="container">
-            <img class="tool-left-bg" src="{{ asset('public/seller/images/tool-left-bg.png') }}" alt="">
-            <img class="tool-right-bg" src="{{ asset('public/seller/images/tool-right-bg.png') }}" alt="">
+            <img class="tool-left-bg" src="{{ asset('seller/images/tool-left-bg.png') }}" alt="">
+            <img class="tool-right-bg" src="{{ asset('seller/images/tool-right-bg.png') }}" alt="">
             <div class="text-center">
                 <h6>My Own Appointments Biz Lite</h6>
                 <h2> <b>The scheduling tool you deserve.</b> </h2>
@@ -236,7 +236,7 @@
                     </div>
                     <div class="col-2 d-flex justify-content-center align-items-center">
                         <div class="tool-mobile-img">
-                            <img src="{{ asset('public/seller/images/online-mobile.png') }}" alt=""
+                            <img src="{{ asset('seller/images/online-mobile.png') }}" alt=""
                                 srcset="">
                         </div>
                     </div>
@@ -385,19 +385,19 @@
                 </div>
                 <div class="col-8  d-flex flex-column justify-content-center align-items-center">
                     <div class="calendar-img  d-flex flex-column justify-content-center align-items-center">
-                        <img class="w-75" src="{{ asset('public/seller/images/laptop.png') }}" alt=""
+                        <img class="w-75" src="{{ asset('seller/images/laptop.png') }}" alt=""
                             srcset="">
                     </div>
                 </div>
             </div>
-            <img class="calendar-bg" src="{{ asset('public/seller/images/calendar-bg.png') }}" alt="">
+            <img class="calendar-bg" src="{{ asset('seller/images/calendar-bg.png') }}" alt="">
         </div>
     </section>
 
     <section class="card-section my-5">
         <div class="container">
             <div class="card-img">
-                <img src="{{ asset('public/seller/images/card.png') }}" alt="">
+                <img src="{{ asset('seller/images/card.png') }}" alt="">
             </div>
         </div>
     </section>
@@ -409,7 +409,7 @@
                 <div class="col-3 my-3">
                     <div class="custom-card">
                         <div class="custom-img">
-                            <img src="{{ asset('public/seller/images/custom.png') }}" alt="">
+                            <img src="{{ asset('seller/images/custom.png') }}" alt="">
                         </div>
                         <button class="btn btn-light custom-btn">BARBER</button>
                     </div>
@@ -417,16 +417,7 @@
                 <div class="col-3 my-3">
                     <div class="custom-card">
                         <div class="custom-img">
-                            <img src="{{ asset('public/seller/images/custom.png') }}" alt="">
-                        </div>
-                        <button class="btn btn-light custom-btn">BARBER</button>
-                    </div>
-                </div>
-
-                <div class="col-3 my-3">
-                    <div class="custom-card">
-                        <div class="custom-img">
-                            <img src="{{ asset('public/seller/images/custom.png') }}" alt="">
+                            <img src="{{ asset('seller/images/custom.png') }}" alt="">
                         </div>
                         <button class="btn btn-light custom-btn">BARBER</button>
                     </div>
@@ -435,7 +426,7 @@
                 <div class="col-3 my-3">
                     <div class="custom-card">
                         <div class="custom-img">
-                            <img src="{{ asset('public/seller/images/custom.png') }}" alt="">
+                            <img src="{{ asset('seller/images/custom.png') }}" alt="">
                         </div>
                         <button class="btn btn-light custom-btn">BARBER</button>
                     </div>
@@ -444,7 +435,7 @@
                 <div class="col-3 my-3">
                     <div class="custom-card">
                         <div class="custom-img">
-                            <img src="{{ asset('public/seller/images/custom.png') }}" alt="">
+                            <img src="{{ asset('seller/images/custom.png') }}" alt="">
                         </div>
                         <button class="btn btn-light custom-btn">BARBER</button>
                     </div>
@@ -453,7 +444,7 @@
                 <div class="col-3 my-3">
                     <div class="custom-card">
                         <div class="custom-img">
-                            <img src="{{ asset('public/seller/images/custom.png') }}" alt="">
+                            <img src="{{ asset('seller/images/custom.png') }}" alt="">
                         </div>
                         <button class="btn btn-light custom-btn">BARBER</button>
                     </div>
@@ -462,7 +453,16 @@
                 <div class="col-3 my-3">
                     <div class="custom-card">
                         <div class="custom-img">
-                            <img src="{{ asset('public/seller/images/custom.png') }}" alt="">
+                            <img src="{{ asset('seller/images/custom.png') }}" alt="">
+                        </div>
+                        <button class="btn btn-light custom-btn">BARBER</button>
+                    </div>
+                </div>
+
+                <div class="col-3 my-3">
+                    <div class="custom-card">
+                        <div class="custom-img">
+                            <img src="{{ asset('seller/images/custom.png') }}" alt="">
                         </div>
                         <button class="btn btn-light custom-btn">BARBER</button>
                     </div>
@@ -472,7 +472,7 @@
                 <div class="col-3 my-3">
                     <div class="custom-card">
                         <div class="custom-img">
-                            <img src="{{ asset('public/seller/images/custom.png') }}" alt="">
+                            <img src="{{ asset('seller/images/custom.png') }}" alt="">
                         </div>
                         <button class="btn btn-light custom-btn">BARBER</button>
                     </div>
@@ -496,7 +496,7 @@
                     <div class="swiper-slide">
                         <div class="software-card">
                             <div class="software-img">
-                                <img src="{{ asset('public/seller/images/software-1.png') }}" alt="">
+                                <img src="{{ asset('seller/images/software-1.png') }}" alt="">
                             </div>
                             <div class="software-content">
                                 <div class="software-text">
@@ -510,7 +510,7 @@
                     <div class="swiper-slide">
                         <div class="software-card">
                             <div class="software-img">
-                                <img src="{{ asset('public/seller/images/software-2.png') }}" alt="">
+                                <img src="{{ asset('seller/images/software-2.png') }}" alt="">
                             </div>
                             <div class="software-content">
                                 <div class="software-text">
@@ -526,7 +526,7 @@
                     <div class="swiper-slide">
                         <div class="software-card">
                             <div class="software-img">
-                                <img src="{{ asset('public/seller/images/software-3.png') }}" alt="">
+                                <img src="{{ asset('seller/images/software-3.png') }}" alt="">
                             </div>
                             <div class="software-content">
                                 <div class="software-text">
@@ -548,5 +548,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('public/seller/js/index.js') }}"></script>
+    <script src="{{ asset('seller/js/index.js') }}"></script>
 @endsection

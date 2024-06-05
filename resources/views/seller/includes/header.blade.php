@@ -14,7 +14,7 @@
             <div class="container-fluid">
                 <div class="w-25">
                     <a class="navbar-brand" href="#">
-                        <img src="{{ asset('public/seller/images/logo.png') }}" alt="" srcset="">
+                        <img src="{{ asset('seller/images/logo.png') }}" alt="" srcset="">
                     </a>
                 </div>
 

@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('public/front/css/shop-detail/desktop.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/shop-detail/desktop.css') }}">
 @endsection
 
 
@@ -30,12 +30,12 @@
                         <div class="gallery">
                             <div class="swiper-container gallery-slider">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-1.png') }}" alt=""></div>
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-2.png') }}" alt=""></div>
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-3.png') }}" alt=""></div>
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-4.png') }}" alt=""></div>
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-1.png') }}" alt=""></div>
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-2.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-1.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-2.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-3.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-4.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-1.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-2.png') }}" alt=""></div>
                                 </div>
                                 <div class="swiper-button-prev gallery-button-prev"></div>
                                 <div class="swiper-button-next gallery-button-next"></div>
@@ -43,12 +43,12 @@
 
                             <div class="swiper-container gallery-thumbs">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-1.png') }}" alt=""></div>
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-2.png') }}" alt=""></div>
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-3.png') }}" alt=""></div>
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-4.png') }}" alt=""></div>
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-1.png') }}" alt=""></div>
-                                    <div class="swiper-slide"><img src="{{ asset('public/front/images/detail-2.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-1.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-2.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-3.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-4.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-1.png') }}" alt=""></div>
+                                    <div class="swiper-slide"><img src="{{ asset('front/images/detail-2.png') }}" alt=""></div>
                                 </div>
                             </div>
                         </div>
@@ -260,29 +260,29 @@
 
                         <div class="row">
                             <div class="col-6 my-2">
-                                <span><img src="{{ asset('public/front/images/rule-icon.png') }}" alt="" srcset=""></span>
+                                <span><img src="{{ asset('front/images/rule-icon.png') }}" alt="" srcset=""></span>
                                 Disposable supplies in use
                             </div>
 
                             <div class="col-6 my-2">
-                                <span><img src="{{ asset('public/front/images/rule-icon.png') }}" alt="" srcset=""></span>
+                                <span><img src="{{ asset('front/images/rule-icon.png') }}" alt="" srcset=""></span>
                                 No walk-ins
                             </div>
 
                             <div class="col-6 my-2">
-                                <span><img src="{{ asset('public/front/images/rule-icon.png') }}" alt="" srcset=""></span>
+                                <span><img src="{{ asset('front/images/rule-icon.png') }}" alt="" srcset=""></span>
                                 Disinfection between clients
                             </div>
                             <div class="col-6 my-2">
-                                <span><img src="{{ asset('public/front/images/rule-icon.png') }}" alt="" srcset=""></span>
+                                <span><img src="{{ asset('front/images/rule-icon.png') }}" alt="" srcset=""></span>
                                 Contactless payment available
                             </div>
                             <div class="col-6 my-2">
-                                <span><img src="{{ asset('public/front/images/rule-icon.png') }}" alt="" srcset=""></span>
+                                <span><img src="{{ asset('front/images/rule-icon.png') }}" alt="" srcset=""></span>
                                 Maintain social distancing
                             </div>
                             <div class="col-6 my-2">
-                                <span><img src="{{ asset('public/front/images/rule-icon.png') }}" alt="" srcset=""></span>
+                                <span><img src="{{ asset('front/images/rule-icon.png') }}" alt="" srcset=""></span>
                                 Employees wear disposable gloves
                             </div>
 
@@ -299,19 +299,19 @@
                         <h3 class="our-work-heading">See Our Work</h3>
                         <div class="our-grids my-3">
                             <div class="grid-col grid-col-1">
-                                <img src="{{ asset('public/front/images/grid-1.jpeg') }}" alt="Portfolio">
+                                <img src="{{ asset('front/images/grid-1.jpeg') }}" alt="Portfolio">
                             </div>
                             <div class="grid-col grid-col-2">
-                                <img src="{{ asset('public/front/images/grid-2.jpeg') }}" alt="Portfolio">
+                                <img src="{{ asset('front/images/grid-2.jpeg') }}" alt="Portfolio">
                             </div>
                             <div class="grid-col grid-col-3">
-                                <img src="{{ asset('public/front/images/grid-3.jpeg') }}" alt="Portfolio">
+                                <img src="{{ asset('front/images/grid-3.jpeg') }}" alt="Portfolio">
                             </div>
                             <div class="grid-col grid-col-4">
-                                <img src="{{ asset('public/front/images/grid-4.jpeg') }}" alt="Portfolio">
+                                <img src="{{ asset('front/images/grid-4.jpeg') }}" alt="Portfolio">
                             </div>
                             <div class="grid-col grid-col-5">
-                                <img src="{{ asset('public/front/images/grid-5.jpeg') }}" alt="Portfolio">
+                                <img src="{{ asset('front/images/grid-5.jpeg') }}" alt="Portfolio">
                             </div>
                         </div>
                         <br>
@@ -546,7 +546,7 @@
                                     <div class="showMoreBtn read-more-btn">Show More</div>
 
                                     <div class="container__img-holder">
-                                        <img src="{{ asset('public/front/images/review.jpeg') }}" alt="Image">
+                                        <img src="{{ asset('front/images/review.jpeg') }}" alt="Image">
                                     </div>
 
                                 </div>
@@ -624,7 +624,7 @@
                             <div class="row">
                                 <div class="col-4">
                                     <div class="staffers-img">
-                                        <img src="{{ asset('public/front/images/staffer-1.jpeg') }}" alt="" srcset="">
+                                        <img src="{{ asset('front/images/staffer-1.jpeg') }}" alt="" srcset="">
                                     </div>
                                     <div class="staffers-name">
                                         Jacquelin Florian
@@ -633,7 +633,7 @@
 
                                 <div class="col-4">
                                     <div class="staffers-img">
-                                        <img src="{{ asset('public/front/images/staffer-2.jpeg') }}" alt="" srcset="">
+                                        <img src="{{ asset('front/images/staffer-2.jpeg') }}" alt="" srcset="">
                                     </div>
                                     <div class="staffers-name">
                                         Olivia Ortiz
@@ -1046,7 +1046,7 @@
                                     <div class="col-8 text-start">
                                         <h6 class="book-service-staff d-flex align-items-center">
                                             <span>Staff:</span>
-                                            <span class="book-service-staff-img"><img src="{{ asset('public/front/images/staffer-1.jpeg') }}"
+                                            <span class="book-service-staff-img"><img src="{{ asset('front/images/staffer-1.jpeg') }}"
                                                     alt="" srcset=""></span>
                                             <span class="book-service-staff-name">Caprice Preciado
                                             </span>
@@ -1099,7 +1099,7 @@
                         <div class="row">
                             <div class="col-2">
                                 <div class="saloon-service-img">
-                                    <img src="{{ asset('public/front/images/banner.png') }}" alt="">
+                                    <img src="{{ asset('front/images/banner.png') }}" alt="">
                                 </div>
                             </div>
                             <div class="col-7">
@@ -1287,7 +1287,7 @@
                         <div class="row border-bottom p-3 items-center">
                             <div class="col-auto">
                                 <div class="icon-avatar">
-                                    <img src="{{ asset('public/front/images/avatar.png') }}" alt="" srcset="">
+                                    <img src="{{ asset('front/images/avatar.png') }}" alt="" srcset="">
                                 </div>
                             </div>
                             <div class="col-10">
@@ -1301,7 +1301,7 @@
                         <div class="row  border-bottom p-3 items-center">
                             <div class="col-auto">
                                 <div class="icon-avatar">
-                                    <img src="{{ asset('public/front/images/staffer-2.jpeg') }}" alt="" srcset="">
+                                    <img src="{{ asset('front/images/staffer-2.jpeg') }}" alt="" srcset="">
                                 </div>
                             </div>
                             <div class="col-10">
@@ -1318,7 +1318,7 @@
                         <div class="row  border-bottom p-3 items-center">
                             <div class="col-auto">
                                 <div class="icon-avatar">
-                                    <img src="{{ asset('public/front/images/staffer-1.jpeg') }}" alt="" srcset="">
+                                    <img src="{{ asset('front/images/staffer-1.jpeg') }}" alt="" srcset="">
                                 </div>
                             </div>
                             <div class="col-10">
@@ -1333,7 +1333,7 @@
                         <div class="row  border-bottom p-3 items-center">
                             <div class="col-auto">
                                 <div class="icon-avatar">
-                                    <img src="{{ asset('public/front/images/staffer-2.jpeg') }}" alt="" srcset="">
+                                    <img src="{{ asset('front/images/staffer-2.jpeg') }}" alt="" srcset="">
                                 </div>
                             </div>
                             <div class="col-10">
@@ -1556,7 +1556,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="appointment-confirmed-img">
-                        <img src="{{ asset('public/front/images/appointment-confirmed-img.png') }}" alt="" srcset="">
+                        <img src="{{ asset('front/images/appointment-confirmed-img.png') }}" alt="" srcset="">
 
                     </div>
                     <div class="text-center">
@@ -1672,7 +1672,7 @@
 
                     <div class="shared-img-div">
                         <div class="shared-img" style="padding-top: 66.6667%;">
-                            <img src="{{ asset('public/front/images/rank.jpeg') }}" alt="Nick Blendz - San Antonio" title="Nick Blendz">
+                            <img src="{{ asset('front/images/rank.jpeg') }}" alt="Nick Blendz - San Antonio" title="Nick Blendz">
                         </div>
                         <div class="shared-img-review">
                             <div data-testid="rank-average" class="rank-average">
@@ -1719,5 +1719,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('public/front/js/shop-detail.js') }}"></script>
+    <script src="{{ asset('front/js/shop-detail.js') }}"></script>
 @endsection

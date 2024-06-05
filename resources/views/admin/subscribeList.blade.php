@@ -45,7 +45,7 @@
 
 
 @section('script')
-    <script src="{{ asset('public/admin/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset('public/admin/js/dataTables.bootstrap4.min.js') }}"></script>
-    <script src="{{ asset('public/admin/js/contact-list/script.js') }}"></script>
+    <script src="{{ asset('admin/js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('admin/js/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('admin/js/contact-list/script.js') }}"></script>
 @endsection

@@ -2,17 +2,17 @@
      <div class="container">
          <div class="d-flex align-items-center flex-column">
              <div class="footer-logo">
-                 <img src="{{ asset('public/front/images/footer-logo.png') }}" alt="logo" srcset="">
+                 <img src="{{ asset('front/images/footer-logo.png') }}" alt="logo" srcset="">
              </div>
              <div class="row w-50">
                  <div class="col-6 text-end">
                      <div class="store-img">
-                         <img src="{{ asset('public/front/images/google-play.png') }}" alt="" srcset="">
+                         <img src="{{ asset('front/images/google-play.png') }}" alt="" srcset="">
                      </div>
                  </div>
                  <div class="col-6">
                      <div class="store-img">
-                         <img src="{{ asset('public/front/images/app-store.png') }}" alt="" srcset="">
+                         <img src="{{ asset('front/images/app-store.png') }}" alt="" srcset="">
                      </div>
                  </div>
              </div>

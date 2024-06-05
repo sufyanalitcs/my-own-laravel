@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 
 @section('style')
-    <link rel="stylesheet" href="{{ asset('public/front/css/shop/desktop.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/shop/desktop.css') }}">
 @endsection
 
 
@@ -35,7 +35,7 @@
                     <div class="swiper-wrapper">
                         <a class="swiper-slide near-salon-slide" href="{{ route('shop-detail') }}">
                             <div class="near-salon-img">
-                                <img src="{{ asset('public/front/images/near-1.png') }}" alt="" srcset="">
+                                <img src="{{ asset('front/images/near-1.png') }}" alt="" srcset="">
                             </div>
                             <div class="row">
                                 <h6 class="col-10"> Red Union Salon - San Francis…</h6>
@@ -57,31 +57,7 @@
 
                         <a class="swiper-slide near-salon-slide" href="{{ route('shop-detail') }}">
                             <div class="near-salon-img">
-                                <img src="{{ asset('public/front/images/near-2.png') }}" alt="" srcset="">
-                            </div>
-                            <div class="row">
-                                <h6 class="col-10"> Red Union Salon - San Francis…</h6>
-                                <div class="col-2">
-                                    <i class="fa-regular fa-heart"></i>
-                                </div>
-                            </div>
-                            <span>1757 Union Street, San Francisco, 94123</span>
-                            <div class="amenites">
-                                <div class="amenites-div">
-                                    <i class="fa-solid fa-thumbs-up"></i>
-                                </div>
-                                <div class="amenites-div">
-                                    <i class="fa-solid fa-car"></i>
-                                </div>
-                            </div>
-
-                            <span class="promoted">promoted <i class="fa-solid fa-circle-info"></i></span>
-
-                        </a>
-
-                        <a class="swiper-slide near-salon-slide" href="{{ route('shop-detail') }}">
-                            <div class="near-salon-img">
-                                <img src="{{ asset('public/front/images/near-3.png') }}" alt="" srcset="">
+                                <img src="{{ asset('front/images/near-2.png') }}" alt="" srcset="">
                             </div>
                             <div class="row">
                                 <h6 class="col-10"> Red Union Salon - San Francis…</h6>
@@ -105,7 +81,31 @@
 
                         <a class="swiper-slide near-salon-slide" href="{{ route('shop-detail') }}">
                             <div class="near-salon-img">
-                                <img src="{{ asset('public/front/images/near-4.png') }}" alt="" srcset="">
+                                <img src="{{ asset('front/images/near-3.png') }}" alt="" srcset="">
+                            </div>
+                            <div class="row">
+                                <h6 class="col-10"> Red Union Salon - San Francis…</h6>
+                                <div class="col-2">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </div>
+                            <span>1757 Union Street, San Francisco, 94123</span>
+                            <div class="amenites">
+                                <div class="amenites-div">
+                                    <i class="fa-solid fa-thumbs-up"></i>
+                                </div>
+                                <div class="amenites-div">
+                                    <i class="fa-solid fa-car"></i>
+                                </div>
+                            </div>
+
+                            <span class="promoted">promoted <i class="fa-solid fa-circle-info"></i></span>
+
+                        </a>
+
+                        <a class="swiper-slide near-salon-slide" href="{{ route('shop-detail') }}">
+                            <div class="near-salon-img">
+                                <img src="{{ asset('front/images/near-4.png') }}" alt="" srcset="">
                             </div>
                             <div class="row">
                                 <h6 class="col-10"> Red Union Salon - San Francis…</h6>
@@ -159,7 +159,7 @@
             <div class="row">
                 <div class="col-4">
                     <a class="listing-img" href="shop-detail">
-                        <img src="{{ asset('public/front/images/listing-1.png') }}" alt="" srcset="">
+                        <img src="{{ asset('front/images/listing-1.png') }}" alt="" srcset="">
                     </a>
                 </div>
 
@@ -220,7 +220,7 @@
             <div class="row">
                 <div class="col-4" href="shop-detail">
                     <a class="listing-img">
-                        <img src="{{ asset('public/front/images/listing-2.png') }}" alt="" srcset="">
+                        <img src="{{ asset('front/images/listing-2.png') }}" alt="" srcset="">
                     </a>
                 </div>
 
@@ -281,7 +281,7 @@
             <div class="row">
                 <div class="col-4">
                     <a class="listing-img" href="shop-detail">
-                        <img src="{{ asset('public/front/images/listing-3.png') }}" alt="" srcset="">
+                        <img src="{{ asset('front/images/listing-3.png') }}" alt="" srcset="">
                     </a>
                 </div>
 
@@ -342,7 +342,7 @@
             <div class="row">
                 <div class="col-4">
                     <a class="listing-img" href="shop-detail">
-                        <img src="{{ asset('public/front/images/listing-4.png') }}" alt="" srcset="">
+                        <img src="{{ asset('front/images/listing-4.png') }}" alt="" srcset="">
                     </a>
                 </div>
 
@@ -591,5 +591,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('public/front/js/shop.js') }}"></script>
+    <script src="{{ asset('front/js/shop.js') }}"></script>
 @endsection
