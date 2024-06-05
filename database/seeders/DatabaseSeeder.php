@@ -18,7 +18,13 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-        
-          \App\Models\Product::factory(24)->create();
+        $this->call([
+            CategoryTableSeeder::class,
+            CountryTableSeeder::class,
+            CityTableSeeder::class,
+            ServiceTableSeeder::class,
+            SaloonTableSeeder::class,
+            SaloonServiceTableSeeder::class,
+        ]); 
     }
 }

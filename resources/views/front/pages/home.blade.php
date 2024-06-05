@@ -245,7 +245,7 @@
                         <div class="h-6 my-2 text-center">
                             <h6>MY OWN APPOINTMENTS • iOS, Android</h6>
                         </div>
-                        <div class="h-2">
+                        <div class="h-2 w-75 text-center">
                             <h2>My Own Appointments for your business</h2>
                         </div>
                         <div class="p w-75 text-center">

@@ -14,16 +14,22 @@ return new class extends Migration
         Schema::create('saloons', function (Blueprint $table) {
             $table->id();
             $table->text('business_name');    
+            $table->text('your_name');    
             $table->text('business_profile');    
             $table->text('business_contact');    
-            $table->text('address');    
-            $table->text('recommended');    
-            $table->text('social_links');    
+            $table->text('address')->nullable();    
+            $table->text('street_address_1')->nullable();    
+            $table->text('street_address_2')->nullable();    
+            $table->text('zip_code')->nullable();    
+            $table->text('team')->nullable();    
+            $table->text('recommended')->nullable();    
+            $table->text('social_links')->nullable();    
+            $table->text('work_place')->nullable();    
             $table->text('about');    
-            $table->int('city_id');    
+            $table->integer('city_id');    
             $table->softDeletes();
             $table->timestamps();
-        });
+        }); 
     }
 
     /**

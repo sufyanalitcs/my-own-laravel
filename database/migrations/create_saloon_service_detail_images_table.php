@@ -11,16 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('saloon_times', function (Blueprint $table) {
+        Schema::create('saloon_service_detail_images', function (Blueprint $table) {
             $table->id();
-            $table->text('days');    
-            $table->text('day_start');    
-            $table->text('day_end');    
-            
-            $table->text('break_start');    
-            $table->text('break_end');    
-
-            $table->int('saloon_id');    
+            $table->text('image');
+            $table->integer('saloon_service_detail_id');    
             $table->softDeletes();
             $table->timestamps();
         });
@@ -31,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('saloon_times');
+        Schema::dropIfExists('saloon_service_detail_images');
     }
 };

@@ -11,10 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('favourite_saloons', function (Blueprint $table) {
+        Schema::create('review_likes', function (Blueprint $table) {
             $table->id();
-            $table->int('saloon_id');    
-            $table->int('user_id');    
+            $table->integer('value');  
+            $table->integer('review_id');  
+            $table->integer('user_id');  
+
             $table->softDeletes();
             $table->timestamps();
         });
@@ -25,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('favourite_saloons');
+        Schema::dropIfExists('review_likes');
     }
 };

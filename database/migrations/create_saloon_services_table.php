@@ -19,8 +19,8 @@ return new class extends Migration
             $table->text('price');    
             $table->text('duration');    
             $table->text('omnibus_price');    
-            $table->int('saloon_id');    
-            $table->int('service_id');    
+            $table->integer('saloon_id');    
+            $table->integer('service_id');    
             $table->softDeletes();
             $table->timestamps();
         });
